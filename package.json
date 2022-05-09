@@ -1,0 +1,32 @@
+{
+  "name": "cypress-percy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "cypress run",
+    "percy-cy": "percy exec -- cypress run --key 2d9bd7512d351f9546fb92025dd6ce177e8ba90b535215e3a48b080bfd7ffea0",
+    "percy:cypress": "percy exec -- cypress run --headed --record --key eb7d54df-cde7-46f9-a4e3-61142281ca8a --browser chrome",
+    "percy:cypress:record": "percy exec -- cypress run --record --parallel --ci-build-id $build_num --key eb7d54df-cde7-46f9-a4e3-61142281ca8a --browser chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anithaparuchuri/Visual-Testing-Framework.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anithaparuchuri/Visual-Testing-Framework/issues"
+  },
+  "homepage": "https://github.com/anithaparuchuri/Visual-Testing-Framework/blob/main/README.md",
+  "dependencies": {
+    "cypress": "^8.4.0",
+    "cypress-real-events": "^1.6.0",
+    "scroll-to-bottomjs": "^1.1.0"
+  },
+  "devDependencies": {
+    "@percy/cli": "^1.0.0-beta.68",
+    "@percy/cypress": "^3.1.1",
+    "cypress-pipe": "^2.0.0"
+  }
+}

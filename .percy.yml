@@ -1,0 +1,19 @@
+version: 2
+snapshot:
+  widths:
+      - 1200
+    minHeight: 1024
+  percy-css: 
+    .cmp-carousel {
+      display: none; 
+    }
+  enable-javascript: false
+discovery:
+  allowedHostnames: []
+  networkIdleTimeout: 750
+static:
+  cleanUrls: false
+upload:
+  files: "**/*.{png,jpg,jpeg}"
+  ignore: ""
+  stripExtensions: false

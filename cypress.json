@@ -1,0 +1,7 @@
+{
+    "defaultCommandTimeout":99000,
+    "projectId": "985zjm",
+    "pageLoadTimeout": 120000,
+    "viewportHeight":609,
+    "viewportWidth" :1280
+}
