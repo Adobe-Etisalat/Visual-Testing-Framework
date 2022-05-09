@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/Adobe-Etisalat/Visual-Testing-Framework/issues"
   },
-  "homepage": "https://github.com/Adobe-Etisalat/Visual-Testing-Framework#readme",
+  "homepage": "https://github.com/Adobe-Etisalat/Visual-Testing-Framework/blob/main/README.md",
   "dependencies": {
     "cypress": "^8.4.0",
     "cypress-real-events": "^1.6.0",
