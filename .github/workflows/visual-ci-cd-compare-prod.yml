@@ -1,0 +1,177 @@
+#This workflow is used to capture the screenshot of the migrated site and compare against the screenshot captured and approved by executing the workflow "percy-cypress-get-prod-screenshot"
+# such sites which are configured in .github/workflows/brad-to-run.json are picked for execution.
+# The site values in config should match the folder names in cypress/integration and cypress/fixtures
+# this workflow needs to be triggered manually
+name: Visual Test CI/CD compare live and migrated pages
+on:
+  #this workflow can be triggered manually or via webhook which is notified by cloudmanager. If this needs to be triggered manually select appropriate program id and pipeline id
+  workflow_dispatch:
+    inputs:
+      pipelineid:
+        type: choice
+        description: Select CM Pipeline
+        options:
+        - '3121283'
+      programid:
+        type: choice
+        description: Select CM Program
+        options:
+        - '42155'
+      # user should provide a branch name which would capture all the screenshot in the percy dashboard also specify the target branch which would contain the screenshot of the live pages
+      target-branch:
+        type: string
+        description: Enter the branch name which holds live page screenshot for comparision
+        required: true
+        default: prod
+      branch:
+        type: string
+        description: Enter the branch name which will hold the migrated page screenshot
+        required: true
+        default: migrated
+
+jobs:
+  read-json:
+    runs-on: ubuntu-latest
+    steps:
+      - name: setup npm
+        uses: actions/checkout@v2
+      - name: Read .json with brands
+        uses: juliangruber/read-file-action@v1
+        id: brands
+        with:
+          path: .github/workflows/brand-to-run.json
+      - run: echo ${{toJSON(steps.brands.outputs.content)}}
+    outputs:
+          json_value: ${{toJSON(steps.brands.outputs.content)}}
+
+  # this job is used to prepare the matrix which would run the lighthouse scan for all the brands configured in parallel
+  set-matrix: 
+    name: setup the matrix
+    runs-on: ubuntu-latest
+    needs: read-json
+    steps:
+      - name: setup npm
+        uses: actions/checkout@v2
+      - name: Setup matrix combinations
+        id: setup-matrix-combinations
+        run: |
+          echo "::set-output name=matrix-combinations::${{ needs.read-json.outputs.json_value }}"
+    outputs:
+          matrix-combinations: ${{ steps.setup-matrix-combinations.outputs.matrix-combinations }}
+  
+  #Get the brands from config file and execute
+  Get-brand-execute:
+    name: Cypress run
+    runs-on: ubuntu-latest
+    needs: set-matrix
+    strategy:
+      # when one test fails, DO NOT cancel the other
+      # containers, because this will kill Cypress processes
+      # leaving the Dashboard hanging ...
+      # https://github.com/cypress-io/github-action/issues/48
+      fail-fast: false
+      matrix: 
+        brand: ${{fromJson(needs.set-matrix.outputs.matrix-combinations).brand}}
+        containers: [1,2,3,4]
+    continue-on-error: true
+    steps:
+      - name: Specify the brand
+        id: set-brand
+        run: |
+          echo Executing visual test for the brand - ${{matrix.brand}}
+          echo "::set-output name=brands::${{needs.set-matrix.outputs.matrix-combinations}}"
+
+      - name: Checkout
+        uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '12.x'
+      - name: Cypress run
+        uses: cypress-io/github-action@v2
+        with:
+          browser: chrome
+          headless: false
+          record: true
+          parallel: true
+          group: ${{matrix.brand}}
+          spec: cypress/integration/${{matrix.brand}}/migrated-site/*
+          command-prefix: 'percy exec -- npx'
+    outputs:
+          brands: ${{needs.set-matrix.outputs.matrix-combinations}}
+    env:
+           # pass the Dashboard record key as an environment variable
+           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+           # pass GitHub token to allow accurately detecting a build vs a re-run build
+           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+           PERCY_TOKEN: ${{ secrets.RAMP_UP_TOKEN }}
+           PERCY_PARALLEL_TOTAL: -1
+           PERCY_PARALLEL_NONCE: ${{ github.event_name }} - ${{ github.run_id }} - $(date +'%Y-%m-%d')
+           PERCY_TARGET_BRANCH: ${{ github.event.inputs.target-branch}}
+           PERCY_BRANCH: ${{ github.event.inputs.branch}}
+           COMMIT_INFO_BRANCH: ${{ github.head_ref }}
+       
+  finalize-percy-build:
+      name: finalize build
+      needs: Get-brand-execute
+      runs-on: ubuntu-latest
+      strategy:
+        matrix:
+           brand: ${{fromJson(needs.Get-brand-execute.outputs.brands).brand}}
+      steps:
+        - name: finalize
+          uses: percy/exec-action@v0.3.1
+          with:
+            command: 'percy finalize --all'
+          env:
+           # pass the Dashboard record key as an environment variable
+           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+           # pass GitHub token to allow accurately detecting a build vs a re-run build
+           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+           PERCY_TOKEN: ${{ secrets.RAMP_UP_TOKEN }}
+           PERCY_PARALLEL_TOTAL: -1
+           PERCY_PARALLEL_NONCE: ${{ github.event_name }} - ${{ github.run_id }} - $(date +'%Y-%m-%d')
+           PERCY_TARGET_BRANCH: ${{ github.event.inputs.target-branch}}
+           PERCY_BRANCH: ${{ github.event.inputs.branch}}
+           COMMIT_INFO_BRANCH: ${{ github.head_ref }}
+         
+
+  check-matrix-status:
+    name: check-matrix-status
+    needs: finalize-percy-build
+    runs-on: ubuntu-latest
+    if: always()
+    steps:
+      - name: check the jobs # get the matrix job status and combination info
+        id: status
+        run: |
+          echo $(curl -X GET -s -u "mkarthik:${{ secrets.PAT3 }}" https://api.github.com/repos/${{ github.repository }}/actions/runs/${{ github.run_id }}/jobs | jq ".jobs[] | {job_status: .conclusion}") >res.json
+          cat res.json | grep -q "fail" && echo "::set-output name=jobstatus::fail"
+          echo job status is ${{ steps.status.outputs.jobstatus}}
+    outputs:
+        jobstatus: ${{ steps.status.outputs.jobstatus}}
+
+  send-slack-msg:
+    name: send slack msg
+    needs: check-matrix-status
+    runs-on: ubuntu-latest
+    if: always() # set always
+    steps:
+      - name: fail the wokflow incase of failure
+        run: |
+            if [[ "${{needs.check-matrix-status.outputs.jobstatus}}" == "fail" ]]; then
+              echo "some jobs have failed in workflow hence failing the workflow"
+              exit 1
+            fi
+        shell: bash
+
+        
+      - uses: rtCamp/action-slack-notify@v2
+        if: always()
+        env:
+          SLACK_CHANNEL: general
+          SLACK_COLOR: ${{ job.status }}
+          SLACK_ICON: https://avatars.slack-edge.com/2019-04-17/600129953603_6b91d39f5146d532d7e6_512.png
+          SLACK_MESSAGE: Click on the ACTIONS URL to check the complete status and also to get complete overview of the execution
+          SLACK_TITLE: Visual tests for live vs migrated page comparision
+          SLACK_USERNAME: mkathu
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}

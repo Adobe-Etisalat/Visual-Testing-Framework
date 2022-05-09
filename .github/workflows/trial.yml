@@ -1,0 +1,91 @@
+name: trial
+on:
+  workflow_dispatch:
+jobs:
+  read-json:
+    runs-on: ubuntu-latest
+    steps:
+      - name: setup npm
+        uses: actions/checkout@v2
+      - name: Read .json with brands
+        uses: juliangruber/read-file-action@v1
+        id: brands
+        with:
+          path: .github/workflows/brand-to-run.json
+      - run: |
+           echo ${{steps.brands.outputs.content}}
+    outputs:
+          json_value: ${{toJSON(steps.brands.outputs.content)}}
+
+  # this job is used to prepare the matrix which would run the lighthouse scan for all the brands configured in parallel
+  set-matrix: 
+    name: setup the matrix
+    runs-on: ubuntu-latest
+    needs: read-json
+    steps:
+      - name: setup npm
+        uses: actions/checkout@v2
+      - name: Setup matrix combinations
+        id: setup-matrix-combinations
+        run: |
+          echo "::set-output name=matrix-combinations::${{ needs.read-json.outputs.json_value }}"
+    outputs:
+          matrix-combinations: ${{ steps.setup-matrix-combinations.outputs.matrix-combinations }}
+  dynamic-matrix:
+    name: matrix-set
+    needs: set-matrix
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        brand: ${{fromJson(needs.set-matrix.outputs.matrix-combinations).brand}}
+        container: [1,2,3,4]
+    continue-on-error: true
+    steps:
+      - name: trial 
+        run: echo ${{matrix.brand}}
+
+      - name: check brand and fail
+        if: ${{matrix.brand == 'walls_au'}}
+        run: exit 1
+        
+  check-matrix-status:
+    name: check-matrix-status
+    needs: dynamic-matrix
+    runs-on: ubuntu-latest
+    if: always()
+    steps:
+      - name: check the jobs # get the matrix job status and combination info
+        id: status
+        run: |
+          echo $(curl -X GET -s -u "mkarthik:${{ secrets.PAT3 }}" https://api.github.com/repos/${{ github.repository }}/actions/runs/${{ github.run_id }}/jobs | jq ".jobs[] | {job_status: .conclusion}") >res.json
+          cat res.json | grep -q "fail" && echo "::set-output name=jobstatus::fail"
+          echo job status is ${{ steps.status.outputs.jobstatus}}
+    outputs:
+        jobstatus: ${{ steps.status.outputs.jobstatus}}
+
+  fail-send-slack-msg:
+    name: send slack msg
+    needs: check-matrix-status
+    runs-on: ubuntu-latest
+    if: always() # set always
+    steps:
+      - name: fail the wokflow incase of failure
+        run: |
+            if [[ "${{needs.check-matrix-status.outputs.jobstatus}}" == "fail" ]]; then
+              echo "some jobs have failed"
+              exit 1
+            fi
+        shell: bash
+
+        
+      - uses: rtCamp/action-slack-notify@v2
+        if: always()
+        env:
+          SLACK_CHANNEL: general
+          SLACK_COLOR: ${{ job.status }}
+          SLACK_ICON: https://avatars.slack-edge.com/2019-04-17/600129953603_6b91d39f5146d532d7e6_512.png
+          SLACK_MESSAGE: Click on the ACTIONS URL to check the complete status and also to get complete overview of the execution
+          SLACK_TITLE: Visual tests for live vs migrated page comparision
+          SLACK_USERNAME: mkathu
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
