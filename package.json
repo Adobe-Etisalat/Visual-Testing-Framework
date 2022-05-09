@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anithaparuchuri/Visual-Testing-Framework.git"
+    "url": ""
   },
-  "author": "",
+  "author": "https://github.com/Adobe-Etisalat/Visual-Testing-Framework.git",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/anithaparuchuri/Visual-Testing-Framework/issues"
+    "url": "https://github.com/Adobe-Etisalat/Visual-Testing-Framework/issues"
   },
-  "homepage": "https://github.com/anithaparuchuri/Visual-Testing-Framework/blob/main/README.md",
+  "homepage": "https://github.com/Adobe-Etisalat/Visual-Testing-Framework#readme",
   "dependencies": {
     "cypress": "^8.4.0",
     "cypress-real-events": "^1.6.0",
