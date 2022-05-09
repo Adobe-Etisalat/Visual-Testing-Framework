@@ -15,7 +15,7 @@ describe("visual test of walls site page",function(){
 
     beforeEach(function()
     {
-        cy.fixture("/TopConsumer/production/Consumer-B1").then((data) =>{
+        cy.fixture("/topconsumer/production/Consumer-B1").then((data) =>{
             this.testdata=data
         }) 
     })

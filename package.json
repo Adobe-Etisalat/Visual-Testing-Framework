@@ -16,11 +16,11 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mkarthik87/cypress-percy/issues"
+    "url": "https://github.com/anithaparuchuri/Visual-Testing-Framework.git"
   },
-  "homepage": "https://github.com/mkarthik87/cypress-percy#readme",
+  "homepage": "https://github.com/anithaparuchuri/Visual-Testing-Framework.git#readme",
   "dependencies": {
-    "cypress": "^9.5.2",
+    "cypress": "^9.6.1",
     "cypress-real-events": "^1.6.0",
     "scroll-to-bottomjs": "^1.1.0"
   },
