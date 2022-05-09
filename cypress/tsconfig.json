@@ -5,7 +5,9 @@
     "types": [
       "cypress",
       "@percy/cypress",
-      "cypress-real-events"
+      "cypress-real-events",
+      "cypress-iframe",
+      "cypress-wait-until"
     ]
   },
   "include": [

@@ -16,17 +16,22 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/anithaparuchuri/Visual-Testing-Framework/issues"
+    "url": "https://github.com/mkarthik87/cypress-percy/issues"
   },
-  "homepage": "https://github.com/anithaparuchuri/Visual-Testing-Framework/blob/main/README.md",
+  "homepage": "https://github.com/mkarthik87/cypress-percy#readme",
   "dependencies": {
-    "cypress": "^9.6.0",
+    "cypress": "^9.5.2",
     "cypress-real-events": "^1.6.0",
     "scroll-to-bottomjs": "^1.1.0"
   },
   "devDependencies": {
     "@percy/cli": "^1.0.0-beta.68",
     "@percy/cypress": "^3.1.1",
-    "cypress-pipe": "^2.0.0"
+    "cypress-iframe": "^1.0.1",
+    "cypress-pipe": "^2.0.0",
+    "cypress-wait-until": "^1.7.2",
+    "mochawesome": "^7.1.0",
+    "mochawesome-merge": "^4.2.1",
+    "mochawesome-report-generator": "^6.1.0"
   }
 }
