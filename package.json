@@ -11,9 +11,9 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/Adobe-Etisalat/Visual-Testing-Framework.git"
   },
-  "author": "https://github.com/Adobe-Etisalat/Visual-Testing-Framework.git",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Adobe-Etisalat/Visual-Testing-Framework/issues"
