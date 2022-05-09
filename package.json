@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "cypress": "cypress run",
-    "percy-cy": "percy exec -- cypress run --key 2d9bd7512d351f9546fb92025dd6ce177e8ba90b535215e3a48b080bfd7ffea0",
+    "percy-cy": "percy exec -- cypress run --key 5a93df23aa46f64c86c32a1ab7c32d606fd7859f67e74dd9628cfb6298b27fae",
     "percy:cypress": "percy exec -- cypress run --headed --record --key 6b88f589-dbd6-474e-9989-2a11d7d6e0a7 --browser chrome",
     "percy:cypress:record": "percy exec -- cypress run --record --parallel --ci-build-id $build_num --key 6b88f589-dbd6-474e-9989-2a11d7d6e0a7 --browser chrome"
   },
