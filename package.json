@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/anithaparuchuri/Visual-Testing-Framework/blob/main/README.md",
   "dependencies": {
-    "cypress": "^8.4.0",
+    "cypress": "^9.6.0",
     "cypress-real-events": "^1.6.0",
     "scroll-to-bottomjs": "^1.1.0"
   },
