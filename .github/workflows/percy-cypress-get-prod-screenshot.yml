@@ -129,7 +129,7 @@ jobs:
       - name: check the jobs # get the matrix job status and combination info
         id: status
         run: |
-          echo $(curl -X GET -s -u "mkarthik:${{ secrets.PAT3 }}" https://api.github.com/repos/${{ github.repository }}/actions/runs/${{ github.run_id }}/jobs | jq ".jobs[] | {job_status: .conclusion}") >res.json
+          echo $(curl -X GET -s -u "mkathu:${{ secrets.PAT3 }}" https://api.github.com/repos/${{ github.repository }}/actions/runs/${{ github.run_id }}/jobs | jq ".jobs[] | {job_status: .conclusion}") >res.json
           cat res.json | grep -q "fail" && echo "::set-output name=jobstatus::fail"
           echo job status is ${{ steps.status.outputs.jobstatus}}
     outputs:
