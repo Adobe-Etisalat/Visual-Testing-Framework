@@ -1,7 +1,7 @@
 {
     "defaultCommandTimeout":99000,
     "projectId": "osogsy",
-    "pageLoadTimeout": 120000,
+    "pageLoadTimeout": 160000,
     "viewportHeight":609,
     "viewportWidth" :1280
 }
