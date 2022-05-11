@@ -101,7 +101,7 @@ jobs:
            # pass the Dashboard record key as an environment variable
            CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
            # pass GitHub token to allow accurately detecting a build vs a re-run build
-           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+           GITHUB_TOKEN: ${{ secrets.GHUB_TOKEN }}
            PERCY_TOKEN: ${{ secrets.RAMP_UP_TOKEN }}
            PERCY_PARALLEL_TOTAL: -1
            PERCY_PARALLEL_NONCE: ${{ github.event_name }} - ${{ github.run_id }} - $(date +'%Y-%m-%d')
@@ -125,7 +125,7 @@ jobs:
            # pass the Dashboard record key as an environment variable
            CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
            # pass GitHub token to allow accurately detecting a build vs a re-run build
-           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+           GITHUB_TOKEN: ${{ secrets.GHUB_TOKEN }}
            PERCY_TOKEN: ${{ secrets.RAMP_UP_TOKEN }}
            PERCY_PARALLEL_TOTAL: -1
            PERCY_PARALLEL_NONCE: ${{ github.event_name }} - ${{ github.run_id }} - $(date +'%Y-%m-%d')
