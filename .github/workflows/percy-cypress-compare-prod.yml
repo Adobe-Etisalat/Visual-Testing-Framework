@@ -71,7 +71,7 @@ jobs:
       fail-fast: false
       matrix: 
         brand: ${{fromJson(needs.set-matrix.outputs.matrix-combinations).brand}}
-        containers: [1,2,3,4,5,6,7,8]
+        containers: [1,2,3,4]
     continue-on-error: true
     steps:
       - name: Specify the brand
