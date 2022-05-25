@@ -15,7 +15,7 @@ describe("visual test of walls site page",function(){
 
     beforeEach(function()
     {
-        cy.fixture("/Top SMB/SMB-B1/production/SMB-B1").then((data) =>{
+        cy.fixture("/top-smb/SMB-B1/production/SMB-B1").then((data) =>{
             this.testdata=data
         }) 
     })
