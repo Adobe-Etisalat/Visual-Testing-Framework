@@ -15,7 +15,7 @@ describe("visual test of walls site page",function(){
 
     beforeEach(function()
     {
-        cy.fixture("/Top SMB/SMB-B2/production/SMB-B2").then((data) =>{
+        cy.fixture("/top-smb-B1/migrated/SMB-B1").then((data) =>{
             this.testdata=data
         }) 
     })
@@ -39,7 +39,7 @@ describe("visual test of walls site page",function(){
              cy.window().then(cyWindow => scrollToBottom({frequency: 10, timing: 5000 ,remoteWindow: cyWindow }));
          i=i+1
          cy.log(i)
-       cy.percySnapshot("SMB-batch2-page-"+i);
+       cy.percySnapshot("SMB-batch1-page-"+i);
         });
        })
 }) 
