@@ -1,7 +1,7 @@
 {
   "name": "cypress-percy",
   "version": "1.0.0",
-  "description": "",
+  "description": "This repo is used by the ramp up team to visually compare live and migrated pages",
   "main": "index.js",
   "scripts": {
     "cypress": "cypress run",
