@@ -2,6 +2,7 @@ version: 2
 snapshot:
   widths:
       - 1200
+      - 360
     minHeight: 1024
   percy-css: 
     .cmp-carousel {
