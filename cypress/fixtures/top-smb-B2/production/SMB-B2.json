@@ -1,6 +1,5 @@
 {
     "wallspage": [  
-
         "https://www.etisalat.ae/en/smb/connectivity-talk/bundle-devices.jsp",
         "https://www.etisalat.ae/en/smb/offers/business-first-plus/national-150.jsp",
         "https://www.etisalat.ae/en/smb/business-online/mobile-service-center.jsp",
@@ -30,13 +29,12 @@
         "https://www.etisalat.ae/en/smb/mobile/plans/online-offers.jsp",
         "https://www.etisalat.ae/en/smb/mobile/add-ons.jsp",
         "https://www.etisalat.ae/en/smb/interest_confirmation.jsp?utype=admin",
+
         "https://www.etisalat.ae/en/smb/lead-order.jsp?product=8&subject=Digital_smart-messaging_sms-marketing-plan1&productName=SMS_Marketing_Plan1",
-       
         "https://www.etisalat.ae/en/smb/broadcast/2021/smb-access-msc.html?wcmmode=disabled",
         "https://www.etisalat.ae/en/smb/offers/extra-allowance/business-first-plus.jsp",
         "https://www.etisalat.ae/en/smb/lead-order.jsp?product=2&subject=Fixed_WiFi_Plan-1-Managed-WiFi&productName=Plan_1_Managed_WiFi",
         "https://www.etisalat.ae/en/smb/digital-solutions/security/downloads.jsp",
-        "https://www.etisalat.ae/en/smb/broadcast/2021/smb-hbh-onboarding.html?wcmmode=disabled",
         "https://www.etisalat.ae/en/smb/mobile-app-faq.jsp",
         "https://www.etisalat.ae/en/smb/digital-solutions/boost-my-website.jsp",
         "https://www.etisalat.ae/en/smb/businessedge/healthcare/dubai.jsp",
@@ -46,7 +44,6 @@
         "https://www.etisalat.ae/en/smb/confirmation.jsp?utype=admin",
         "https://www.etisalat.ae/en/smb/connectivity-talk/communication.jsp",
         "https://www.etisalat.ae/en/smb/lead-order.jsp?product=16&subject=Business-Edge-Solutions&productName=Business_Edge_Customized_Solutions",
-        "https://www.etisalat.ae/en/smb/broadcast/2021/smb-b2b-registration-retail-stores.html?wcmmode=disabled",
         "https://www.etisalat.ae/en/smb/businessedge/security.jsp",
         "https://www.etisalat.ae/en/smb/standalone/mobile-postpaid-plan-faq.jsp",
         "https://www.etisalat.ae/en/smb/cloud-apps/digital-signage.jsp" ]
