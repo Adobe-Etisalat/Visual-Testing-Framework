@@ -55,8 +55,7 @@ jobs:
       # https://github.com/cypress-io/github-action/issues/48
       fail-fast: false
       matrix: 
-        brand: ${{from
-        Json(needs.set-matrix.outputs.matrix-combinations).brand}}
+        brand: ${{fromJson(needs.set-matrix.outputs.matrix-combinations).brand}}
         containers: [1,2,3,4]
     continue-on-error: true
     steps:
