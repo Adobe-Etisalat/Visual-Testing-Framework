@@ -55,7 +55,8 @@ jobs:
       # https://github.com/cypress-io/github-action/issues/48
       fail-fast: false
       matrix: 
-        brand: ${{fromJson(needs.set-matrix.outputs.matrix-combinations).brand}}
+        brand: ${{from
+        Json(needs.set-matrix.outputs.matrix-combinations).brand}}
         containers: [1,2,3,4]
     continue-on-error: true
     steps:
@@ -69,7 +70,7 @@ jobs:
         uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
-          node-version: '12.x'
+          node-version: '16.x'
       - name: Cypress run
         uses: cypress-io/github-action@v2
         with:
