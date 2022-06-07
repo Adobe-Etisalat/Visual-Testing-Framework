@@ -15,7 +15,7 @@ describe("visual test of walls site page",function(){
 
     beforeEach(function()
     {
-        cy.fixture("/EG-B2/production/EG-B2").then((data) =>{
+        cy.fixture("/EG-B2/production/EG-Batch2").then((data) =>{
             this.testdata=data
         }) 
     })
@@ -39,7 +39,7 @@ describe("visual test of walls site page",function(){
              cy.window().then(cyWindow => scrollToBottom({frequency: 10, timing: 5000 ,remoteWindow: cyWindow }));
          i=i+1
          cy.log(i)
-       cy.percySnapshot("E&G-B2-page-"+i);
+       cy.percySnapshot("EG-Batch2-page-"+i);
         });
        })
 }) 
