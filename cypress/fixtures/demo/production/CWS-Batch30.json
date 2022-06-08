@@ -1,14 +1,44 @@
 {
     "wallspage": [  
-        "https://www.etisalat.ae/en/index.jsp",
-        "https://www.etisalat.ae/en/c/mobile/plans/visitor-line.jsp?catName=Visitor_line_plan&listVal=Visitor_line_plan",
-        "https://www.etisalat.ae/en/index.jsp?ds_rl=1271494&ds_rl=1271521",
-        "https://www.etisalat.ae/en/c/devices/top-brands/apple/smartphones.jsp?catName=Smartphones&listVal=TopBrands_Apple",
-        "https://www.etisalat.ae/en/c/mobile/plans/wasel-flexi.jsp?catName=Prepaid_plan&listVal=Wasel_Flexi",
-        
-        "https://www.etisalat.ae/en/c/mobile/plans/prepaid-plans.jsp?catName=Prepaid_plan&listVal=Prepaid_plan",
-        "https://www.etisalat.ae/en/c/home/home-wireless.jsp",
-        "https://www.etisalat.ae/en/c/mobile/plans/prepaid-plans.jsp",
-        "https://www.etisalat.ae/en/c/mobile-registration-renewal.jsp",
-        "https://www.etisalat.ae/ar/index.jsp" ]
+        "https://www.etisalat.ae/en/carrier-and-wholesale/index.jsp",
+        "https://www.etisalat.ae/en/carrier-and-wholesale/cws-need-help-success.jsp",
+        "https://www.etisalat.ae/en/carrier-and-wholesale/help/help-us/help.jsp",
+        "https://www.etisalat.ae/en/carrier-and-wholesale/cws-need-help-form.jsp",
+        "https://www.etisalat.ae/en/carrier-and-wholesale/services/data-services/smart-hub/client-endorsements.jsp",
+
+        "https://www.etisalat.ae/en/carrier-and-wholesale/services/data-services/smart-hub/connectivity.jsp",
+        "https://www.etisalat.ae/en/carrier-and-wholesale/services/data-services/smart-hub/interconnected-communities.jsp",
+        "https://www.etisalat.ae/en/carrier-and-wholesale/services/data-services/smart-hub/colocation.jsp",
+        "https://www.etisalat.ae/en/carrier-and-wholesale/services/data-services/smart-hub/differentiation.jsp",
+        "https://www.etisalat.ae/en/carrier-and-wholesale/services/data-services/sd-wan.jsp",
+
+        "https://www.etisalat.ae/en/carrier-and-wholesale/index.jsp",
+        "https://www.etisalat.ae/en/carrier-and-wholesale/cws-need-help-success.jsp",
+        "https://www.etisalat.ae/en/carrier-and-wholesale/help/help-us/help.jsp",
+        "https://www.etisalat.ae/en/carrier-and-wholesale/cws-need-help-form.jsp",
+        "https://www.etisalat.ae/en/carrier-and-wholesale/services/data-services/smart-hub/client-endorsements.jsp",
+
+        "https://www.etisalat.ae/en/carrier-and-wholesale/services/data-services/smart-hub/connectivity.jsp",
+        "https://www.etisalat.ae/en/carrier-and-wholesale/services/data-services/smart-hub/interconnected-communities.jsp",
+        "https://www.etisalat.ae/en/carrier-and-wholesale/services/data-services/smart-hub/colocation.jsp",
+        "https://www.etisalat.ae/en/carrier-and-wholesale/services/data-services/smart-hub/differentiation.jsp",
+        "https://www.etisalat.ae/en/carrier-and-wholesale/services/data-services/sd-wan.jsp",
+
+        "https://www.etisalat.ae/en/carrier-and-wholesale/index.jsp",
+        "https://www.etisalat.ae/en/carrier-and-wholesale/cws-need-help-success.jsp",
+        "https://www.etisalat.ae/en/carrier-and-wholesale/help/help-us/help.jsp",
+        "https://www.etisalat.ae/en/carrier-and-wholesale/cws-need-help-form.jsp",
+        "https://www.etisalat.ae/en/carrier-and-wholesale/services/data-services/smart-hub/client-endorsements.jsp",
+    
+        "https://www.etisalat.ae/en/carrier-and-wholesale/services/data-services/smart-hub/connectivity.jsp",
+        "https://www.etisalat.ae/en/carrier-and-wholesale/services/data-services/smart-hub/interconnected-communities.jsp",
+        "https://www.etisalat.ae/en/carrier-and-wholesale/services/data-services/smart-hub/colocation.jsp",
+        "https://www.etisalat.ae/en/carrier-and-wholesale/services/data-services/smart-hub/differentiation.jsp",
+        "https://www.etisalat.ae/en/carrier-and-wholesale/services/data-services/sd-wan.jsp",
+    
+        "https://www.etisalat.ae/en/carrier-and-wholesale/index.jsp",
+        "https://www.etisalat.ae/en/carrier-and-wholesale/cws-need-help-success.jsp",
+        "https://www.etisalat.ae/en/carrier-and-wholesale/help/help-us/help.jsp",
+        "https://www.etisalat.ae/en/carrier-and-wholesale/cws-need-help-form.jsp",
+        "https://www.etisalat.ae/en/carrier-and-wholesale/services/data-services/smart-hub/client-endorsements.jsp",]
  }
