@@ -5,7 +5,7 @@ snapshot:
     - 768
     - 992
     - 1200
-    minHeight: 1024
+  minHeight: 1024
   percy-css: 
     .cmp-carousel {
       display: none; }
