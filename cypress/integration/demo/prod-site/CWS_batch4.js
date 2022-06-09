@@ -25,7 +25,7 @@ describe("visual test of walls site page",function(){
         let i=0
         arrayOsPage.forEach(element => {
            cy.log(i)
-            cy.visit(element).wait(5000)
+            cy.visit(element).wait(10000)
             cy.document().then(doc => {
                 // create a new style tag
                 let $style = doc.createElement("style");
