@@ -15,7 +15,7 @@ describe("visual test of walls site page",function(){
 
     beforeEach(function()
     {
-        cy.fixture("/demo-B6/production/CWS-Batch6").then((data) =>{
+        cy.fixture("/smblot2/migrated/smb-34").then((data) =>{
             this.testdata=data
         }) 
     })
@@ -25,7 +25,7 @@ describe("visual test of walls site page",function(){
         let i=0
         arrayOsPage.forEach(element => {
            cy.log(i)
-            cy.visit(element).wait(10000)
+            cy.visit(element).wait(5000)
             cy.document().then(doc => {
                 // create a new style tag
                 let $style = doc.createElement("style");
@@ -39,7 +39,7 @@ describe("visual test of walls site page",function(){
              cy.window().then(cyWindow => scrollToBottom({frequency: 10, timing: 5000 ,remoteWindow: cyWindow }));
          i=i+1
          cy.log(i)
-       cy.percySnapshot("demo-B6-page-"+i);
+       cy.percySnapshot("smblot-34-page-"+i);
         });
        })
 }) 

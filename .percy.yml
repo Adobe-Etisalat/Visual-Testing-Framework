@@ -1,6 +1,8 @@
 version: 2
 snapshot:
   widths:
+    - 320
+    - 768
     - 1200
   minHeight: 1024
   percy-css: 
