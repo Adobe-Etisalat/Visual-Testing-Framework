@@ -1,12 +1,10 @@
 {
   "wallspage": [    
-    "https://uatnew.etisalat.ae/ar/smb/businessedge/business-edge-solutions.html",
-
-    "https://uatnew.etisalat.ae/ar/smb/connectivity-talk/internet-bundle/150-mbps.html",
-    "https://uatnew.etisalat.ae/ar/smb/businessedge/business-edge-O365.html",
-
-    "https://uatnew.etisalat.ae/ar/smb/offers/extra-allowance/business-first-plus-150-standard-contactus.html",
-    "https://uatnew.etisalat.ae/ar/smb/connectivity-talk/internet-bundle/internet-bundles-international-destinations.html",
-    "https://uatnew.etisalat.ae/ar/smb/digital-solutions/payments/billing-and-payment-old.html",
-    "https://uatnew.etisalat.ae/ar/smb/mobile/easy-prepaid.html"  ]
+    "https://www.etisalat.ae/ar/smb/businessedge/business-edge-solutions.jsp",
+    "https://www.etisalat.ae/ar/smb/connectivity-talk/internet-bundle/150-mbps.jsp",
+    "https://www.etisalat.ae/ar/smb/businessedge/business-edge-O365.jsp",
+    "https://www.etisalat.ae/ar/smb/offers/extra-allowance/business-first-plus-150-standard-contactus.jsp",
+    "https://www.etisalat.ae/ar/smb/connectivity-talk/internet-bundle/internet-bundles-international-destinations.jsp",
+    "https://www.etisalat.ae/ar/smb/digital-solutions/payments/billing-and-payment-old.jsp",
+    "https://www.etisalat.ae/ar/smb/mobile/easy-prepaid.jsp" ]
 }
