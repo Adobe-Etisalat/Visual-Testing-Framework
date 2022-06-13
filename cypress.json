@@ -1,6 +1,6 @@
 {
     "defaultCommandTimeout":200000,
-    "projectId": "osogsy",
+    "projectId": "vtsbkb",
     "pageLoadTimeout": 2200000,
     "viewportHeight":609,
     "viewportWidth" :1280
