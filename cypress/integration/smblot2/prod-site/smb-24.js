@@ -39,7 +39,7 @@ describe("visual test of walls site page",function(){
              cy.window().then(cyWindow => scrollToBottom({frequency: 10, timing: 5000 ,remoteWindow: cyWindow }));
          i=i+1
          cy.log(i)
-       cy.percySnapshot("smblot-24-page-"+i);
+       cy.percySnapshot("smblottwo-24-page-"+i);
         });
        })
 }) 
