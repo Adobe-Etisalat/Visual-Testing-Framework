@@ -5,9 +5,10 @@ snapshot:
     - 768
     - 320
   minHeight: 1024
-  percy-css: 
+  percy-css: |
     .cmp-carousel {
-      display: none; }
+      display: none;
+    }
   enable-javascript: false
 discovery:
   allowedHostnames: []
