@@ -1,26 +1,23 @@
 {
   "wallspage": [    
-    "https://www.etisalat.ae/ar/generic/contactus-forms/thankyou/feedback-thankyou.jsp",
-    "https://www.etisalat.ae/ar/generic/contactus-forms/web-block-unblockn.jsp",
-    "https://www.etisalat.ae/ar/generic/device-care.jsp",
-    "https://www.etisalat.ae/ar/generic/field-visit.jsp",
-    "https://www.etisalat.ae/ar/go-digital.jsp",
-
-    "https://www.etisalat.ae/ar/index.jsp",
-    "https://www.etisalat.ae/ar/index.jsp?ds_rl=1271494&ds_rl=1271521",
-    "https://www.etisalat.ae/ar/index_demo.jsp",
-    "https://www.etisalat.ae/ar/index-bau.jsp",
-    "https://www.etisalat.ae/ar/myaccount/email-account.jsp",
-
-    "https://www.etisalat.ae/ar/mybill.jsp",
-    "https://www.etisalat.ae/ar/onboarding/elife.jsp",
-    "https://www.etisalat.ae/ar/onboarding/elife/addons-and-promotions/promotions.jsp",
-    "https://www.etisalat.ae/ar/onboarding/elife/get-support/support.jsp",
-    "https://www.etisalat.ae/ar/onboarding/elife/get-support/tech-support.jsp",
-
-    "https://www.etisalat.ae/ar/onboarding/elife/your-account/know-your-devices.jsp",
-    "https://www.etisalat.ae/ar/onboarding/elife/your-account/logging-in.jsp",
-    "https://www.etisalat.ae/ar/onboarding/elife/your-account/managing-account.jsp",
-    "https://www.etisalat.ae/ar/onboarding/elife/your-bill/about-your-bill.jsp",
-    "https://www.etisalat.ae/ar/onboarding/elife/your-bill/payment-methods.jsp" ]
+    "https://uatnew.etisalat.ae/ar/generic/contactus-forms/thankyou/feedback-thankyou.html",
+    "https://uatnew.etisalat.ae/ar/generic/contactus-forms/web-block-unblockn.html",
+    "https://uatnew.etisalat.ae/ar/generic/device-care.html",
+    "https://uatnew.etisalat.ae/ar/generic/field-visit.html",
+    "https://uatnew.etisalat.ae/ar/go-digital.html",
+    "https://uatnew.etisalat.ae/ar/index.html",
+    "https://uatnew.etisalat.ae/ar/index.html?ds_rl=1271494&ds_rl=1271521",
+    "https://uatnew.etisalat.ae/ar/index_demo.html",
+    "https://uatnew.etisalat.ae/ar/index-bau.html",
+    "https://uatnew.etisalat.ae/ar/myaccount/email-account.html",
+    "https://uatnew.etisalat.ae/ar/mybill.html",
+    "https://uatnew.etisalat.ae/ar/onboarding/elife.html",
+    "https://uatnew.etisalat.ae/ar/onboarding/elife/addons-and-promotions/promotions.html",
+    "https://uatnew.etisalat.ae/ar/onboarding/elife/get-support/support.html",
+    "https://uatnew.etisalat.ae/ar/onboarding/elife/get-support/tech-support.html",
+    "https://uatnew.etisalat.ae/ar/onboarding/elife/your-account/know-your-devices.html",
+    "https://uatnew.etisalat.ae/ar/onboarding/elife/your-account/logging-in.html",
+    "https://uatnew.etisalat.ae/ar/onboarding/elife/your-account/managing-account.html",
+    "https://uatnew.etisalat.ae/ar/onboarding/elife/your-bill/about-your-bill.html",
+    "https://uatnew.etisalat.ae/ar/onboarding/elife/your-bill/payment-methods.html"]
 }
