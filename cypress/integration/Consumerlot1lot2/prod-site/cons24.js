@@ -15,7 +15,7 @@ describe("visual test of walls site page",function(){
 
     beforeEach(function()
     {
-        cy.fixture("/Consumerlot1lot2/production/cons24").then((data) =>{
+        cy.fixture("/Consumerlot1lot2/production/cons-24").then((data) =>{
             this.testdata=data
         }) 
     })

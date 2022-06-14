@@ -11,11 +11,11 @@ describe("visual test of walls site page",function(){
             console.log("NEW RELIC INTERCEPTED");
             req.reply("console.log('Fake New Relic script loaded');");
         });
-    });
+    }); 
 
     beforeEach(function()
     {
-        cy.fixture("/Consumerlot1lot2/migrated/cons1").then((data) =>{
+        cy.fixture("/Consumerlot1lot2/migrated/cons-1").then((data) =>{
             this.testdata=data
         }) 
     })
