@@ -1,0 +1,26 @@
+{
+  "wallspage": [    
+    "https://www.etisalat.ae/ar/c/apps.jsp",
+    "https://www.etisalat.ae/ar/c/autopay.jsp",
+    "https://www.etisalat.ae/ar/c/autopay-terms-and-conditions.jsp",
+    "https://www.etisalat.ae/ar/c/cx-billing/billing-explainer.jsp",
+    "https://www.etisalat.ae/ar/c/dial101.jsp",
+
+    "https://www.etisalat.ae/ar/c/ebill.jsp",
+    "https://www.etisalat.ae/ar/c/e-contract-privacy-policy.jsp",
+    "https://www.etisalat.ae/ar/c/e-contract-terms-and-conditions.jsp",
+    "https://www.etisalat.ae/ar/c/etisalat-virtual-assistant.jsp",
+    "https://www.etisalat.ae/ar/c/exchange-houses.jsp",
+
+    "https://www.etisalat.ae/ar/c/generic/arena.jsp",
+    "https://www.etisalat.ae/ar/c/generic/myspeed.jsp",
+    "https://www.etisalat.ae/ar/c/generic/the-happy-alphabet.jsp",
+    "https://www.etisalat.ae/ar/c/generic/wider-web.jsp",
+    "https://www.etisalat.ae/ar/c/home/absher-plans-home.jsp",
+    
+    "https://www.etisalat.ae/ar/c/home/absher-plans-home/terms-and-conditions.jsp",
+    "https://www.etisalat.ae/ar/c/home/ad-fight.jsp",
+    "https://www.etisalat.ae/ar/c/home/amazon-prime.jsp",
+    "https://www.etisalat.ae/ar/c/home/calling-cards.jsp",
+    "https://www.etisalat.ae/ar/c/home/call-plus-bundle.jsp" ]
+}
