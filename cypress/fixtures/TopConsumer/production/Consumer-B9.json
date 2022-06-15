@@ -1,8 +1,9 @@
 {
   "wallspage": [  
-    "https://www.etisalat.ae/en/c/devices/top-brands/huawei/routers.jsp?catName=Routers&listVal=TopBrands_Huawei",
-    "https://www.etisalat.ae/en/c/devices/top-brands/huawei/smartphones.jsp?catName=Smartphones&listVal=TopBrands_Huawei",
-    "https://www.etisalat.ae/en/c/devices/top-brands/huawei/tablets.jsp?catName=Tablets&listVal=TopBrands_Huawei",
-    "https://www.etisalat.ae/en/c/devices/top-brands/huawei/tablets.jsp?catName=Tablets&listVal=TopBrands_Huawei&14=",
-    "https://www.etisalat.ae/en/c/devices/top-brands/nokia/products.jsp?catName=Smartphones&listVal=TopBrands_Nokia"]
+    "https://www.etisalat.ae/en/c/home/home-wireless.jsp",
+    "https://www.etisalat.ae/en/c/home/new-home-protection.jsp",
+    "https://www.etisalat.ae/en/c/home/on-demand.jsp",
+    "https://www.etisalat.ae/en/c/home/on-demand/terms-and-conditions.jsp",
+    "https://www.etisalat.ae/en/c/home/packages/1-fil-per-second-plan.jsp",
+    "https://www.etisalat.ae/en/c/home/plans/ana-emarati-unlimited-packages.jsp"]
 }

@@ -1,8 +1,9 @@
 {
   "wallspage": [  
-    "https://uatnew.etisalat.ae/en/c/devices/top-brands/huawei/routers.html?catName=Routers&listVal=TopBrands_Huawei",
-    "https://uatnew.etisalat.ae/en/c/devices/top-brands/huawei/smartphones.html?catName=Smartphones&listVal=TopBrands_Huawei",
-    "https://uatnew.etisalat.ae/en/c/devices/top-brands/huawei/tablets.html?catName=Tablets&listVal=TopBrands_Huawei",
-    "https://uatnew.etisalat.ae/en/c/devices/top-brands/huawei/tablets.html?catName=Tablets&listVal=TopBrands_Huawei&14=",
-    "https://uatnew.etisalat.ae/en/c/devices/top-brands/nokia/products.html?catName=Smartphones&listVal=TopBrands_Nokia"]
+    "https://uatnew.etisalat.ae/en/c/home/home-wireless.html",
+    "https://uatnew.etisalat.ae/en/c/home/new-home-protection.html",
+    "https://uatnew.etisalat.ae/en/c/home/on-demand.html",
+    "https://uatnew.etisalat.ae/en/c/home/on-demand/terms-and-conditions.html",
+    "https://uatnew.etisalat.ae/en/c/home/packages/1-fil-per-second-plan.html",
+    "https://uatnew.etisalat.ae/en/c/home/plans/ana-emarati-unlimited-packages.html"]
 }

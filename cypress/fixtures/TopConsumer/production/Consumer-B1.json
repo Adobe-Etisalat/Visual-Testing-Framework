@@ -1,8 +1,8 @@
 {
   "wallspage": [
-    "https://www.etisalat.ae/en/c/convenient-ways-to-pay.jsp",
-    "https://www.etisalat.ae/en/c/cx-billing/billing-explainer.jsp",
-    "https://www.etisalat.ae/en/c/cx-billing/billing-faq.jsp",
-    "https://www.etisalat.ae/en/c/cx-billing/cx-billing-iframe-landing.jsp",
-    "https://www.etisalat.ae/en/c/deals-for-you.jsp"]
+    "https://www.etisalat.ae/en/c/devices/top-brands/samsung/accessories.jsp?catName=Accessories&listVal=TopBrands_Samsung",
+    "https://www.etisalat.ae/en/c/devices/top-brands/samsung/smartphones.jsp?catName=Smartphones&listVal=TopBrands_Samsung",
+    "https://www.etisalat.ae/en/c/devices/top-brands/samsung/tablets.jsp?catName=Tablets&listVal=TopBrands_Samsung",
+    "https://www.etisalat.ae/en/c/devices/top-brands/samsung/tv.jsp?catName=SmartTV&listVal=TopBrands_Samsung",
+    "https://www.etisalat.ae/en/c/devices/top-brands/samsung/wearables.jsp?catName=Accessories&listVal=TopBrands_Samsung&locale=EN"]
 }
