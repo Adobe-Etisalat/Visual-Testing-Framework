@@ -1,8 +1,8 @@
 {
   "wallspage": [
-    "https://www.etisalat.ae/ar/c/devices/mobile/samsung-galaxy-z-series.jsp",
-    "https://www.etisalat.ae/ar/c/devices/smartphones.jsp",
-    "https://www.etisalat.ae/ar/c/devices/top-brands/apple/accessories.jsp?catName=Accessories&listVal=TopBrands_Apple",
-    "https://www.etisalat.ae/ar/c/devices/top-brands/apple/smartphones.jsp?catName=Smartphones&listVal=Overview&Locale=AR",
-    "https://www.etisalat.ae/ar/c/devices/top-brands/apple/smartphones.jsp?catName=Smartphones&listVal=TopBrands_Apple"]
+    "https://www.etisalat.ae/ar/c/mobile/plans/everyday-data-packs.jsp",
+    "https://www.etisalat.ae/ar/c/mobile/plans/international-voice-packs-for-prepaid.jsp",
+    "https://www.etisalat.ae/ar/c/mobile/plans/internet-calling-plans.jsp",
+    "https://www.etisalat.ae/ar/c/mobile/plans/new-postpaid-plans.jsp",
+    "https://www.etisalat.ae/ar/c/mobile/plans/premium-postpaid-plans.jsp" ]
 }

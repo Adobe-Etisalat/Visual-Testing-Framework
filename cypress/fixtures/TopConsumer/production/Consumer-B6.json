@@ -1,8 +1,8 @@
 {
   "wallspage": [
-    "https://www.etisalat.ae/ar/c/devices/top-brands/huawei/tablets.jsp?catName=Tablets&listVal=TopBrands_Huawei&14=",
-"https://www.etisalat.ae/ar/c/devices/top-brands/samsung/smartphones.jsp?catName=Smartphones&listVal=TopBrands_Samsung",
-"https://www.etisalat.ae/ar/c/devices/top-brands/samsung/tablets.jsp?catName=Tablets&listVal=TopBrands_Samsung",
-"https://www.etisalat.ae/ar/c/dial101.jsp",
-"https://www.etisalat.ae/ar/c/e-contract-terms-and-conditions.jsp"]
+    "https://www.etisalat.ae/ar/c/mobile/plans/visitor-line.jsp",
+    "https://www.etisalat.ae/ar/c/mobile/plans/visitor-line.jsp?catName=Visitor_line_plan&listVal=Visitor_line_plan",
+    "https://www.etisalat.ae/ar/c/mobile/plans/wasel-flexi.jsp?catName=Prepaid_plan&listVal=Wasel_Flexi",
+    "https://www.etisalat.ae/ar/c/mobile/plans/wasel-premium-number.jsp",
+    "https://www.etisalat.ae/ar/c/mobile/plans/wasel-prepaid-line.jsp"  ]
 }

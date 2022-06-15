@@ -1,8 +1,8 @@
 {
   "wallspage": [
-    "https://uatnew.etisalat.ae/ar/c/devices/top-brands/apple/smartphones.html?catName=iPhones&listVal=TopBrands_Apple,",
-    "https://uatnew.etisalat.ae/ar/c/devices/top-brands/apple/tablets.html?catName=iPads&listVal=TopBrands_Apple",
-    "https://uatnew.etisalat.ae/ar/c/devices/top-brands/apple/watch.html?catName=Accessories&listVal=TopBrands_Apple,",
-    "https://uatnew.etisalat.ae/ar/c/devices/top-brands/apple/watch.html?catName=AppleWatch&listVal=TopBrands_Apple,",
-    "https://uatnew.etisalat.ae/ar/c/devices/top-brands/huawei/smartphones.html?catName=Smartphones&listVal=TopBrands_Huawei,"]
+    "https://uatnew.etisalat.ae/ar/c/mobile/plans/prepaid-plans.html",
+    "https://uatnew.etisalat.ae/ar/c/mobile/plans/prepaid-plans.html?catName=Prepaid_plan&listVal=Prepaid_plan",
+    "https://uatnew.etisalat.ae/ar/c/mobile/plans/prepaid-plans.html?catName=Prepaid_plan&listVal=Wasel_Prepaid_Line",
+    "https://uatnew.etisalat.ae/ar/c/mobile/plans/prepaid-plans.html?catName=prepaid_plan&listVal=prepaid_plan,",
+    "https://uatnew.etisalat.ae/ar/c/mobile/plans/prepaid-to-postpaid.html"  ]
 }
