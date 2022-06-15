@@ -1,8 +1,8 @@
 {
   "wallspage": [
-    "https://www.etisalat.ae/ar/c/mobile/information-services-ivr.jsp",
-    "https://www.etisalat.ae/ar/c/mobile/multi-sim.jsp",
-    "https://www.etisalat.ae/ar/c/mobile/my-data-plan.jsp",
-    "https://www.etisalat.ae/ar/c/mobile/my-etisalat-uae-app.jsp",
-    "https://www.etisalat.ae/ar/c/mobile/plans/control-line.jsp?catName=Control_line_plan&listVal=Control_line_plan," ]
+    "https://www.etisalat.ae/ar/consumer/support/mobile/postpaid.jsp",
+    "https://www.etisalat.ae/ar/consumer/support/mobile/postpaid/data-balance-transfer-faqs-new.jsp",
+    "https://www.etisalat.ae/ar/consumer/support/mobile/postpaid/emirati_plan_faqs.jsp",
+    "https://www.etisalat.ae/ar/consumer/support/mobile/postpaid/new_freedom_plans_faq.jsp",
+    "https://www.etisalat.ae/ar/consumer/support/mobile/postpaid/smart_plan_faqs.jsp" ]
 }
