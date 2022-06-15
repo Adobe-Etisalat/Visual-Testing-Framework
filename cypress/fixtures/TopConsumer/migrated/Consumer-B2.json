@@ -1,58 +1,8 @@
 {
   "wallspage": [
-    "https://uatnew.etisalat.ae/ar/c/mobile/5g-zte-launch.html",
-    "https://uatnew.etisalat.ae/ar/c/mobile/call-services.html",
-    "https://uatnew.etisalat.ae/ar/c/mobile/caller-tune.html",
-    "https://uatnew.etisalat.ae/ar/c/mobile/data-and-credit-transfer.html",
-    "https://uatnew.etisalat.ae/ar/c/mobile/esim.html",
-
-    "https://uatnew.etisalat.ae/ar/c/mobile/information-services-ivr.html",
-    "https://uatnew.etisalat.ae/ar/c/mobile/multi-sim.html",
-    "https://uatnew.etisalat.ae/ar/c/mobile/my-data-plan.html",
-    "https://uatnew.etisalat.ae/ar/c/mobile/my-etisalat-uae-app.html",
-    "https://uatnew.etisalat.ae/ar/c/mobile/plans/control-line.html?catName=Control_line_plan&listVal=Control_line_plan,",
-
-    "https://uatnew.etisalat.ae/ar/c/mobile/plans/data-plans/start-stop-data-service.html",
-    "https://uatnew.etisalat.ae/ar/c/mobile/plans/emirati-freedom-plans-purchase.html",
-    "https://uatnew.etisalat.ae/ar/c/mobile/plans/emirati-freedom-plans.html",
-    "https://uatnew.etisalat.ae/ar/c/mobile/plans/etisalat-emirati.html",
-    "https://uatnew.etisalat.ae/ar/c/mobile/plans/etisalat-smart.html",
-
-    "https://uatnew.etisalat.ae/ar/c/mobile/plans/everyday-data-packs.html",
-    "https://uatnew.etisalat.ae/ar/c/mobile/plans/international-voice-packs-for-prepaid.html",
-    "https://uatnew.etisalat.ae/ar/c/mobile/plans/internet-calling-plans.html",
-    "https://uatnew.etisalat.ae/ar/c/mobile/plans/new-postpaid-plans.html",
-    "https://uatnew.etisalat.ae/ar/c/mobile/plans/premium-postpaid-plans.html",
-
-    "https://uatnew.etisalat.ae/ar/c/mobile/plans/prepaid-plans.html",
-    "https://uatnew.etisalat.ae/ar/c/mobile/plans/prepaid-plans.html?catName=Prepaid_plan&listVal=Prepaid_plan",
-    "https://uatnew.etisalat.ae/ar/c/mobile/plans/prepaid-plans.html?catName=Prepaid_plan&listVal=Wasel_Prepaid_Line",
-    "https://uatnew.etisalat.ae/ar/c/mobile/plans/prepaid-plans.html?catName=prepaid_plan&listVal=prepaid_plan,",
-    "https://uatnew.etisalat.ae/ar/c/mobile/plans/prepaid-to-postpaid.html",
-
-    "https://uatnew.etisalat.ae/ar/c/mobile/plans/visitor-line.html",
-    "https://uatnew.etisalat.ae/ar/c/mobile/plans/visitor-line.html?catName=Visitor_line_plan&listVal=Visitor_line_plan",
-    "https://uatnew.etisalat.ae/ar/c/mobile/plans/wasel-flexi.html?catName=Prepaid_plan&listVal=Wasel_Flexi",
-    "https://uatnew.etisalat.ae/ar/c/mobile/plans/wasel-premium-number.html",
-    "https://uatnew.etisalat.ae/ar/c/mobile/plans/wasel-prepaid-line.html",
-
-    "https://uatnew.etisalat.ae/ar/c/mobile/recharge-methods.html",
-    "https://uatnew.etisalat.ae/ar/c/mobile/roam-like-home.html",
-    "https://uatnew.etisalat.ae/ar/c/mobile/roaming-pack-and-services.html",
-    "https://uatnew.etisalat.ae/ar/c/mobile/smiles.html",
-    "https://uatnew.etisalat.ae/ar/c/mobile/standard-rates-and-charges.html",
-
-    "https://uatnew.etisalat.ae/ar/c/mobile/standard-roaming-rates.html",
-    "https://uatnew.etisalat.ae/ar/c/mobile/switch-to-etisalat-mobile.html",
-    "https://uatnew.etisalat.ae/ar/c/mobile/trade-in-programme.html",
-    "https://uatnew.etisalat.ae/ar/c/mobile/value-added-services.html",
-    "https://uatnew.etisalat.ae/ar/c/people-of-determination.html",
-
-    "https://uatnew.etisalat.ae/ar/c/phishing-and-fraud.html",
-    "https://uatnew.etisalat.ae/ar/c/promotions/easy-insurance.html",
-    "https://uatnew.etisalat.ae/ar/c/promotions/online-is-better.html",
-    "https://uatnew.etisalat.ae/ar/c/promotions/super-hour-data-access.html",
-    "https://uatnew.etisalat.ae/ar/c/promotions/uae-wi-fi.html",
-    
-    "https://uatnew.etisalat.ae/ar/c/promotions/umrah-hajj-weekly-pack.html"]
+    "https://uatnew.etisalat.ae/ar/c/deals-for-you.html",
+    "https://uatnew.etisalat.ae/ar/c/devices/accessories.html",
+    "https://uatnew.etisalat.ae/ar/c/devices/dsf/smartphones.html?catName=Smartphones&listVal=DSF",
+    "https://uatnew.etisalat.ae/ar/c/devices/home/gaming/playstation-5.html",
+    "https://uatnew.etisalat.ae/ar/c/devices/home/xbox-all-access-landing-page.html" ]
 }
