@@ -1,8 +1,8 @@
 {
   "wallspage": [  
-    "https://www.etisalat.ae/ar/storelocator.jsp",
-    "https://www.etisalat.ae/ar/system/wst/search-results.jsp",
-    "https://www.etisalat.ae/en/c/apps.jsp",
-    "https://www.etisalat.ae/en/c/autopay.jsp",
-    "https://www.etisalat.ae/en/c/autopay.jsp?fbclid=IwAR3-Sfdb3Vqp1mHyDSihugzE-sA24OpG4C5OOPNQLPwaeoKbMm51HkoAxdY"]
+    "https://www.etisalat.ae/en/c/devices/top-brands/huawei/routers.jsp?catName=Routers&listVal=TopBrands_Huawei",
+    "https://www.etisalat.ae/en/c/devices/top-brands/huawei/smartphones.jsp?catName=Smartphones&listVal=TopBrands_Huawei",
+    "https://www.etisalat.ae/en/c/devices/top-brands/huawei/tablets.jsp?catName=Tablets&listVal=TopBrands_Huawei",
+    "https://www.etisalat.ae/en/c/devices/top-brands/huawei/tablets.jsp?catName=Tablets&listVal=TopBrands_Huawei&14=",
+    "https://www.etisalat.ae/en/c/devices/top-brands/nokia/products.jsp?catName=Smartphones&listVal=TopBrands_Nokia"]
 }
