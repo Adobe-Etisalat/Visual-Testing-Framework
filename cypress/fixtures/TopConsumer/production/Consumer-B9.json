@@ -1,9 +1,5 @@
 {
   "wallspage": [  
-    "https://www.etisalat.ae/en/c/mobile/data-and-credit-transfer.jsp",
-  
-    "https://www.etisalat.ae/en/c/mobile/information-services-ivr.jsp",
-    "https://www.etisalat.ae/en/c/mobile/leaving-uae.jsp",
-    "https://www.etisalat.ae/en/c/mobile/mms.jsp",
-    "https://www.etisalat.ae/en/c/mobile/mobile-carrier-billing.jsp"]
+    "https://www.etisalat.ae/en/c/home/calling-cards.jsp",
+    "https://www.etisalat.ae/en/c/home/channel-list-category/channel-list.jsp" ]
 }
