@@ -1,7 +1,7 @@
 {
     "defaultCommandTimeout":200000,
     "projectId": "rzhbsf",
-    "pageLoadTimeout": 2200000,
+    "pageLoadTimeout": 22000000,
     "viewportHeight":609,
     "viewportWidth" :1280
 }
