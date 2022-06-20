@@ -15,7 +15,7 @@ describe("visual test of walls site page",function(){
 
     beforeEach(function()
     {
-        cy.fixture("/TopConsumer/migrated/Consumer-B13").then((data) =>{
+        cy.fixture("/TopConsumer/migrated/Consumer-B16").then((data) =>{
             this.testdata=data
         }) 
     })
@@ -39,7 +39,7 @@ describe("visual test of walls site page",function(){
              cy.window().then(cyWindow => scrollToBottom({frequency: 10, timing: 5000 ,remoteWindow: cyWindow }));
          i=i+1
          cy.log(i)
-       cy.percySnapshot("TopConsumer-bat13-page-"+i);
+       cy.percySnapshot("Top-Consumer-bat16-page-"+i);
         });
        })
 }) 
