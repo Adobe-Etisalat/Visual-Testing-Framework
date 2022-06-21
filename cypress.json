@@ -1,6 +1,6 @@
 {
     "defaultCommandTimeout":200000,
-    "projectId": "aptea7",
+    "projectId":"aptea7",
     "pageLoadTimeout": 22000000,
     "viewportHeight":609,
     "viewportWidth" :1280
