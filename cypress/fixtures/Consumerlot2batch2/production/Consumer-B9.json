@@ -1,15 +1,14 @@
 {
   "wallspage": [  
-    "https://www.etisalat.ae/en/c/support/home/elife/internet-calling-plans/overview.jsp",
-    "https://www.etisalat.ae/en/c/support/home/elife/internet-calling-plans/subscriptions-cancellations.jsp",
-    "https://www.etisalat.ae/en/c/support/home/internet.jsp",
-    "https://www.etisalat.ae/en/c/support/home/internet/al-shamil/billing-and-usage.jsp",
-    "https://www.etisalat.ae/en/c/support/home/internet/al-shamil/others.jsp",
-    "https://www.etisalat.ae/en/c/support/home/internet/al-shamil/overview-and-benefits.jsp",
-    "https://www.etisalat.ae/en/c/support/home/internet/elife-home-portal/billing-and-usage.jsp",
-    "https://www.etisalat.ae/en/c/support/home/internet/elife-home-portal/others.jsp",
-    "https://www.etisalat.ae/en/c/support/home/internet/elife-home-portal/overview-and-benefits.jsp",
-    "https://www.etisalat.ae/en/c/support/home/internet/email2sms/billing-and-usage.jsp",
-    "https://www.etisalat.ae/en/c/support/home/internet/email2sms/others.jsp",
-    "https://www.etisalat.ae/en/c/support/home/internet/email2sms/overview-and-benefits.jsp" ]
+    "https://www.etisalat.ae/en/c/support/mobile/prepaid/data-balance-transfer/overview-and-benefits.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/prepaid/deal-of-the-day/billing-and-usage.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/prepaid/deal-of-the-day/overview-and-benefits.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/prepaid/deal-of-the-day/subscription-and-cancellation.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/prepaid/international-calling/overview-and-benefits.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/prepaid/international-calling/subscriptions-cancellations.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/prepaid/internet-calling-plans/activation.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/prepaid/internet-calling-plans/billing-and-usage.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/prepaid/internet-calling-plans/overview-and-benefits.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/prepaid/internet-calling-plans/subscriptions-cancellations.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/prepaid/mobile-credit-transfer/billing-and-usage.jsp"  ]
 }

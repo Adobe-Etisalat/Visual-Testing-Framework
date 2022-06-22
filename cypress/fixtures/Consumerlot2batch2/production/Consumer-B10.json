@@ -1,15 +1,13 @@
 {
   "wallspage": [
-    "https://www.etisalat.ae/en/c/support/home/internet/full-home-wifi/billing-and-usage.jsp",
-    "https://www.etisalat.ae/en/c/support/home/internet/full-home-wifi/others.jsp",
-    "https://www.etisalat.ae/en/c/support/home/internet/full-home-wifi/overview-and-benefits.jsp",
-    "https://www.etisalat.ae/en/c/support/home/internet/full-home-wifi/subscriptions-cancellations.jsp",
-    "https://www.etisalat.ae/en/c/support/home/internet/internet-packages/billing-and-usage.jsp",
-    "https://www.etisalat.ae/en/c/support/home/internet/internet-packages/others.jsp",
-    "https://www.etisalat.ae/en/c/support/home/internet/internet-packages/overview-and-benefits.jsp",
-    "https://www.etisalat.ae/en/c/support/home/internet/internet-packages/subscription-and-cancellation.jsp",
-    "https://www.etisalat.ae/en/c/support/home/internet/uae-wifi-by-etisalat/activation.jsp",
-    "https://www.etisalat.ae/en/c/support/home/internet/uae-wifi-by-etisalat/billing-and-usage.jsp",
-    "https://www.etisalat.ae/en/c/support/home/internet/uae-wifi-by-etisalat/others.jsp",
-    "https://www.etisalat.ae/en/c/support/home/internet/uae-wifi-by-etisalat/overview-and-benefits.jsp" ]
+    "https://www.etisalat.ae/en/c/support/mobile/prepaid/mobile-credit-transfer/other.jsp",
+"https://www.etisalat.ae/en/c/support/mobile/prepaid/mobile-credit-transfer/overview-and-benefits.jsp",
+"https://www.etisalat.ae/en/c/support/mobile/prepaid/mobile-credit-transfer/subscriptions-cancellations.jsp",
+"https://www.etisalat.ae/en/c/support/mobile/prepaid/mobile-customer-registration/other.jsp",
+"https://www.etisalat.ae/en/c/support/mobile/prepaid/mobile-customer-registration/overview-and-benefits.jsp",
+"https://www.etisalat.ae/en/c/support/mobile/prepaid/mobile-customer-registration/subscriptions-cancellations.jsp",
+"https://www.etisalat.ae/en/c/support/mobile/prepaid/multi-sim/billing-and-usage.jsp",
+"https://www.etisalat.ae/en/c/support/mobile/prepaid/multi-sim/other.jsp",
+"https://www.etisalat.ae/en/c/support/mobile/prepaid/multi-sim/overview-and-benefits.jsp",
+"https://www.etisalat.ae/en/c/support/mobile/prepaid/multi-sim/subscriptions-and-cancellations.jsp"]
 }

@@ -1,15 +1,14 @@
 {
   "wallspage": [
-    "https://www.etisalat.ae/en/c/support/home/elife/elife-entertainment/subscriptions-cancellations.jsp",
-    "https://www.etisalat.ae/en/c/support/home/elife/elife-family/benefits-addons.jsp",
-    "https://www.etisalat.ae/en/c/support/home/elife/elife-family/billing-and-usage.jsp",
-    "https://www.etisalat.ae/en/c/support/home/elife/elife-family/other.jsp",
-    "https://www.etisalat.ae/en/c/support/home/elife/elife-family/overview.jsp",
-    "https://www.etisalat.ae/en/c/support/home/elife/elife-family/subscriptions-cancellations.jsp",
-    "https://www.etisalat.ae/en/c/support/home/elife/elife-premium-100mbps/benefits-addons.jsp",
-    "https://www.etisalat.ae/en/c/support/home/elife/elife-premium-100mbps/billing-and-usage.jsp",
-    "https://www.etisalat.ae/en/c/support/home/elife/elife-premium-100mbps/other.jsp",
-    "https://www.etisalat.ae/en/c/support/home/elife/elife-premium-100mbps/overview.jsp",
-    "https://www.etisalat.ae/en/c/support/home/elife/elife-premium-100mbps/subscriptions-cancellations.jsp",
-    "https://www.etisalat.ae/en/c/support/home/elife/elife-premium-500mbps/benefits-addons.jsp" ]
+    "https://www.etisalat.ae/en/c/support/mobile/postpaid/prepaid-international-packs/billing-and-usage.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/postpaid/prepaid-international-packs/other.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/postpaid/prepaid-international-packs/overview-and-benefits.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/postpaid/prepaid-international-packs/subscriptions-cancellations.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/postpaid/smart-mcn/billing-and-usage.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/postpaid/smart-mcn/overview-and-benefits.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/postpaid/smart-plans/billing-and-usage.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/postpaid/smart-plans/others.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/postpaid/smart-plans/overview-and-benefits.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/postpaid/smart-plans/subscriptions-cancellations.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/prepaid.jsp" ]
 }

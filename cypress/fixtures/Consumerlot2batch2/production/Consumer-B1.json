@@ -1,16 +1,15 @@
 {
   "wallspage": [ 
-    "https://www.etisalat.ae/en/c/mobile/add-ons/music-service-terms-and-conditions.jsp",
-    "https://www.etisalat.ae/en/c/mobile/add-ons/video-pass-terms-and-conditions.jsp",
-    "https://www.etisalat.ae/en/c/mobile/email2sms.jsp",
-    "https://www.etisalat.ae/en/c/mobile/galaxy-upgrade-program.jsp",
-    "https://www.etisalat.ae/en/c/mobile/galaxy-upgrade-program/terms-and-conditions.jsp",
-
-    "https://www.etisalat.ae/en/c/mobile/homebound-pack.jsp",
-    "https://www.etisalat.ae/en/c/mobile/incoming-voice-roaming-pack.jsp",
-    "https://www.etisalat.ae/en/c/mobile/notify-me.jsp",
-    "https://www.etisalat.ae/en/c/mobile/plans/emirati-freedom-offers/emirati-freedom-plans.jsp",
-    "https://www.etisalat.ae/en/c/mobile/plans/freedom-live-banner.jsp",
-    "https://www.etisalat.ae/en/c/mobile/plans/freedom-live/exclusive-offers.jsp",
-    "https://www.etisalat.ae/en/c/mobile/plans/internet-calling-plans/terms-and-conditions.jsp"  ]
+    "https://www.etisalat.ae/en/c/support/mobile/postpaid/data-balance-transfer/overview-and-benefits.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/postpaid/data-booster/billing-and-usage.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/postpaid/data-booster/overview-and-benefits.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/postpaid/data-booster/subscriptions-cancellations.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/postpaid/double-data-promo/billing-and-usage.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/postpaid/double-data-promo/overview-and-benefits.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/postpaid/double-data-promo/subscription-and-cancellation.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/postpaid/emirati-freedom-plans/billing-and-usage.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/postpaid/emirati-freedom-plans/overview-and-benefits.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/postpaid/emirati-freedom-plans/subscriptions-cancellations.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/postpaid/emirati-plans/activation.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/postpaid/emirati-plans/billing-and-usage.jsp" ]
 }

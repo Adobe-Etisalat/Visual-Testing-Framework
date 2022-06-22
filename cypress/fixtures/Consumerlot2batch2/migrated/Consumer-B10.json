@@ -1,15 +1,13 @@
 {
   "wallspage": [
-    "https://uatnew.etisalat.ae/en/c/support/home/internet/full-home-wifi/billing-and-usage.html",
-    "https://uatnew.etisalat.ae/en/c/support/home/internet/full-home-wifi/others.html",
-    "https://uatnew.etisalat.ae/en/c/support/home/internet/full-home-wifi/overview-and-benefits.html",
-    "https://uatnew.etisalat.ae/en/c/support/home/internet/full-home-wifi/subscriptions-cancellations.html",
-    "https://uatnew.etisalat.ae/en/c/support/home/internet/internet-packages/billing-and-usage.html",
-    "https://uatnew.etisalat.ae/en/c/support/home/internet/internet-packages/others.html",
-    "https://uatnew.etisalat.ae/en/c/support/home/internet/internet-packages/overview-and-benefits.html",
-    "https://uatnew.etisalat.ae/en/c/support/home/internet/internet-packages/subscription-and-cancellation.html",
-    "https://uatnew.etisalat.ae/en/c/support/home/internet/uae-wifi-by-etisalat/activation.html",
-    "https://uatnew.etisalat.ae/en/c/support/home/internet/uae-wifi-by-etisalat/billing-and-usage.html",
-    "https://uatnew.etisalat.ae/en/c/support/home/internet/uae-wifi-by-etisalat/others.html",
-    "https://uatnew.etisalat.ae/en/c/support/home/internet/uae-wifi-by-etisalat/overview-and-benefits.html" ]
+    "https://uatnew.etisalat.ae/en/c/support/mobile/prepaid/mobile-credit-transfer/other.html",
+    "https://uatnew.etisalat.ae/en/c/support/mobile/prepaid/mobile-credit-transfer/overview-and-benefits.html",
+    "https://uatnew.etisalat.ae/en/c/support/mobile/prepaid/mobile-credit-transfer/subscriptions-cancellations.html",
+    "https://uatnew.etisalat.ae/en/c/support/mobile/prepaid/mobile-customer-registration/other.html",
+    "https://uatnew.etisalat.ae/en/c/support/mobile/prepaid/mobile-customer-registration/overview-and-benefits.html",
+    "https://uatnew.etisalat.ae/en/c/support/mobile/prepaid/mobile-customer-registration/subscriptions-cancellations.html",
+    "https://uatnew.etisalat.ae/en/c/support/mobile/prepaid/multi-sim/billing-and-usage.html",
+    "https://uatnew.etisalat.ae/en/c/support/mobile/prepaid/multi-sim/other.html",
+    "https://uatnew.etisalat.ae/en/c/support/mobile/prepaid/multi-sim/overview-and-benefits.html",
+    "https://uatnew.etisalat.ae/en/c/support/mobile/prepaid/multi-sim/subscriptions-and-cancellations.html" ]
 }

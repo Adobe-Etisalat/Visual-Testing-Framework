@@ -1,15 +1,13 @@
 {
   "wallspage": [
-    "https://www.etisalat.ae/en/c/support/index.jsp",
-    "https://www.etisalat.ae/en/c/support/mobile.jsp",
-    "https://www.etisalat.ae/en/c/support/mobile/5g/billing-and-usage.jsp",
-    "https://www.etisalat.ae/en/c/support/mobile/5g/others.jsp",
-    "https://www.etisalat.ae/en/c/support/mobile/5g/overview-and-benefits.jsp",
-    "https://www.etisalat.ae/en/c/support/mobile/5g/subscriptions-and-cancellations.jsp",
-    "https://www.etisalat.ae/en/c/support/mobile/idd-pack/billing-and-usage.jsp",
-    "https://www.etisalat.ae/en/c/support/mobile/idd-pack/overview-and-benefits.jsp",
-    "https://www.etisalat.ae/en/c/support/mobile/idd-pack/subscriptions-and-cancellations.jsp",
-    "https://www.etisalat.ae/en/c/support/mobile/postpaid.jsp",
-    "https://www.etisalat.ae/en/c/support/mobile/postpaid/4-digit-security-pin/other.jsp",
-    "https://www.etisalat.ae/en/c/support/mobile/postpaid/4-digit-security-pin/overview-and-benefits.jsp"]
+    "https://www.etisalat.ae/en/c/support/mobile/prepaid/visitor-line/other.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/prepaid/visitor-line/overview-and-benefits.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/prepaid/visitor-line/subscriptions-cancellations.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/prepaid/wasel-go/billing-and-usage.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/prepaid/wasel-go/overview-and-benefits.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/prepaid/wasel-go/subscriptions-cancellations.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/prepaid/wasel-premium-number/billing-and-usage.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/prepaid/wasel-premium-number/overview-and-benefits.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/prepaid/wasel-premium-number/subscription-cancellation.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/prepaid/wasel-prepaid-line/billing-and-usage.jsp"]
 }

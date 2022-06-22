@@ -1,16 +1,13 @@
 {
   "wallspage": [
-    "https://www.etisalat.ae/en/c/promotions/sports-and-entertainment-with-bein.jsp",
-    "https://www.etisalat.ae/en/c/promotions/stay-home-with-smiles.jsp",
-    "https://www.etisalat.ae/en/c/promotions/super-hour-data-access/terms-and-conditions.jsp",
-    "https://www.etisalat.ae/en/c/promotions/takaful-offer/terms-and-conditions.jsp",
-    "https://www.etisalat.ae/en/c/promotions/together-at-home.jsp",
-    "https://www.etisalat.ae/en/c/promotions/world-class-entertainment-with-osn.jsp",
-    "https://www.etisalat.ae/en/c/promotions/xbox-game-pass.jsp",
-    "https://www.etisalat.ae/en/c/support/home.jsp",
-   
-    "https://www.etisalat.ae/en/c/support/home/elife/elife-entertainment/benefits-addons.jsp",
-    "https://www.etisalat.ae/en/c/support/home/elife/elife-entertainment/billing-and-usage.jsp",
-    "https://www.etisalat.ae/en/c/support/home/elife/elife-entertainment/other.jsp",
-    "https://www.etisalat.ae/en/c/support/home/elife/elife-entertainment/overview.jsp" ]
+    "https://www.etisalat.ae/en/c/support/mobile/postpaid/notify-me/overview-and-benefits.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/postpaid/play-on-demand/billing-and-usage.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/postpaid/play-on-demand/overview-and-benefits.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/postpaid/postpaid-data-plans/billing-and-usage.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/postpaid/postpaid-data-plans/overview-and-benefits.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/postpaid/postpaid-data-plans/subscription-and-cancellation.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/postpaid/premium-postpaid-plans/billing-and-usage.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/postpaid/premium-postpaid-plans/others.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/postpaid/premium-postpaid-plans/overview-and-benefits.jsp",
+    "https://www.etisalat.ae/en/c/support/mobile/postpaid/premium-postpaid-plans/subscriptions-cancellations.jsp" ]
 }

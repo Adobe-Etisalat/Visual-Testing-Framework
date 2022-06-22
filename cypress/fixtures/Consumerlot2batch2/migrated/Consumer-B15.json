@@ -1,15 +1,13 @@
 {
   "wallspage": [
-    "https://uatnew.etisalat.ae/en/c/support/mobile/postpaid/autopay/overview-and-benefits.html",
-"https://uatnew.etisalat.ae/en/c/support/mobile/postpaid/autopay/subscription-and-cancellation.html",
-"https://uatnew.etisalat.ae/en/c/support/mobile/postpaid/control-line/billing-and-usage.html",
-"https://uatnew.etisalat.ae/en/c/support/mobile/postpaid/control-line/others.html",
-"https://uatnew.etisalat.ae/en/c/support/mobile/postpaid/control-line/overview-and-benefits.html",
-"https://uatnew.etisalat.ae/en/c/support/mobile/postpaid/control-line/subscription-and-cancellation.html",
-"https://uatnew.etisalat.ae/en/c/support/mobile/postpaid/credit-transfer/billing-and-usage.html",
-"https://uatnew.etisalat.ae/en/c/support/mobile/postpaid/credit-transfer/others.html",
-"https://uatnew.etisalat.ae/en/c/support/mobile/postpaid/credit-transfer/overview-and-benefits.html",
-"https://uatnew.etisalat.ae/en/c/support/mobile/postpaid/credit-transfer/subscription-and-cancellation.html",
-"https://uatnew.etisalat.ae/en/c/support/mobile/postpaid/data-balance-transfer/billing-and-usage.html",
-"https://uatnew.etisalat.ae/en/c/support/mobile/postpaid/data-balance-transfer/others.html"]
+    "https://uatnew.etisalat.ae/en/c/support/mobile/roaming/mobile-incoming-voice-roaming-packs/overview-and-benefits.html",
+    "https://uatnew.etisalat.ae/en/c/support/mobile/roaming/mobile-incoming-voice-roaming-packs/subscription-cancellation.html",
+    "https://uatnew.etisalat.ae/en/c/support/mobile/roaming/monthly-roaming-packs/billing-and-usage.html",
+    "https://uatnew.etisalat.ae/en/c/support/mobile/roaming/monthly-roaming-packs/overview-and-benefits.html",
+    "https://uatnew.etisalat.ae/en/c/support/mobile/roaming/monthly-roaming-packs/subscription-cancellation.html",
+    "https://uatnew.etisalat.ae/en/c/support/mobile/roaming/roaming-callback-app/billing-and-usage.html",
+    "https://uatnew.etisalat.ae/en/c/support/mobile/roaming/roaming-callback-app/other.html",
+    "https://uatnew.etisalat.ae/en/c/support/mobile/roaming/roaming-callback-app/overview-and-benefits.html",
+    "https://uatnew.etisalat.ae/en/c/support/mobile/roaming/umrah-and-hajj/billing-and-usage.html",
+    "https://uatnew.etisalat.ae/en/c/support/mobile/roaming/umrah-and-hajj/overview-and-benefits.html"]
 }

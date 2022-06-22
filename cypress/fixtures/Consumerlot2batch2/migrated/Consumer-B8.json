@@ -1,15 +1,13 @@
 {
   "wallspage": [
-    "https://uatnew.etisalat.ae/en/c/support/home/elife/elife-ultimate-1g/benefits-addons.html",
-    "https://uatnew.etisalat.ae/en/c/support/home/elife/elife-ultimate-1g/billing-and-usage.html",
-    "https://uatnew.etisalat.ae/en/c/support/home/elife/elife-ultimate-1g/other.html",
-    "https://uatnew.etisalat.ae/en/c/support/home/elife/elife-ultimate-1g/overview.html",
-    "https://uatnew.etisalat.ae/en/c/support/home/elife/elife-ultimate-1g/subscriptions-cancellations.html",
-    "https://uatnew.etisalat.ae/en/c/support/home/elife/home-protection-plan/billing-and-usage.html",
-    "https://uatnew.etisalat.ae/en/c/support/home/elife/home-protection-plan/others.html",
-    "https://uatnew.etisalat.ae/en/c/support/home/elife/home-protection-plan/overview.html",
-    "https://uatnew.etisalat.ae/en/c/support/home/elife/home-protection-plan/subscriptions-cancellations.html",
-    "https://uatnew.etisalat.ae/en/c/support/home/elife/internet-calling-plans/activation.html",
-    "https://uatnew.etisalat.ae/en/c/support/home/elife/internet-calling-plans/billing-and-usage.html",
-    "https://uatnew.etisalat.ae/en/c/support/home/elife/internet-calling-plans/others.html"  ]
+    "https://uatnew.etisalat.ae/en/c/support/mobile/prepaid/control-line/overview-and-benefits.html",
+    "https://uatnew.etisalat.ae/en/c/support/mobile/prepaid/control-line/subscriptions-cancellations.html",
+    "https://uatnew.etisalat.ae/en/c/support/mobile/prepaid/credit-transfer/billing-and-usage.html",
+    "https://uatnew.etisalat.ae/en/c/support/mobile/prepaid/credit-transfer/overview-and-benefits.html",
+    "https://uatnew.etisalat.ae/en/c/support/mobile/prepaid/credit-transfer/subscription-cancellation.html",
+    "https://uatnew.etisalat.ae/en/c/support/mobile/prepaid/daily-local-calling-packages/billing-and-usage.html",
+    "https://uatnew.etisalat.ae/en/c/support/mobile/prepaid/daily-local-calling-packages/overview-and-benefits.html",
+    "https://uatnew.etisalat.ae/en/c/support/mobile/prepaid/daily-local-calling-packages/subscription-cancellation.html",
+    "https://uatnew.etisalat.ae/en/c/support/mobile/prepaid/data-balance-transfer/billing-and-usage.html",
+    "https://uatnew.etisalat.ae/en/c/support/mobile/prepaid/data-balance-transfer/others.html"  ]
 }
