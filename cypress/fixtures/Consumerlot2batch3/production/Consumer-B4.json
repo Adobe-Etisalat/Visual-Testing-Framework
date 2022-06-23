@@ -1,10 +1,10 @@
 {
   "wallspage": [
-    "https://www.etisalat.ae/en/onboarding/prepaid/your-account/managing-account.jsp",
-    "https://www.etisalat.ae/en/sindex.jsp",
-    "https://www.etisalat.ae/en/system/b2b_outage_message.jsp",
-    "https://www.etisalat.ae/en/system/contact-us/support-form-thankyou.jsp",
-    "https://www.etisalat.ae/en/system/error.jsp",
-    "https://www.etisalat.ae/en/system/outage.jsp",
-    "https://www.etisalat.ae/en/system/outagenew.jsp" ]
+    "https://www.etisalat.ae/ar/c/support/home/elife/elife-family/other.jsp",
+    "https://www.etisalat.ae/ar/c/support/home/elife/elife-family/overview.jsp",
+    "https://www.etisalat.ae/ar/c/support/home/elife/elife-family/subscriptions-cancellations.jsp",
+    "https://www.etisalat.ae/ar/c/support/home/elife/elife-premium-100mbps/benefits-addons.jsp",
+    "https://www.etisalat.ae/ar/c/support/home/elife/elife-premium-100mbps/billing-and-usage.jsp",
+    "https://www.etisalat.ae/ar/c/support/home/elife/elife-premium-100mbps/other.jsp",
+    "https://www.etisalat.ae/ar/c/support/home/elife/elife-premium-100mbps/overview.jsp"     ]
 }

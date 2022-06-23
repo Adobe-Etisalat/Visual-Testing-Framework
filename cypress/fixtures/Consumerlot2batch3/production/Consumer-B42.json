@@ -1,11 +1,10 @@
 {
   "wallspage": [
-    "https://www.etisalat.ae/ar/c/mobile/galaxy-upgrade-program/terms-and-conditions.jsp",
-   
-    "https://www.etisalat.ae/ar/c/mobile/homebound-pack.jsp",
-    "https://www.etisalat.ae/ar/c/mobile/incoming-voice-roaming-pack.jsp",
-    "https://www.etisalat.ae/ar/c/mobile/information-services-ivr.jsp",
-    "https://www.etisalat.ae/ar/c/mobile/leaving-uae.jsp",
-    "https://www.etisalat.ae/ar/c/mobile/mms.jsp",
-    "https://www.etisalat.ae/ar/c/mobile/mobile-carrier-billing.jsp"]
+    "https://www.etisalat.ae/ar/c/support/mobile/roaming/mobile-incoming-voice-roaming-packs/billing-and-usage.jsp",
+    "https://www.etisalat.ae/ar/c/support/mobile/roaming/mobile-incoming-voice-roaming-packs/overview-and-benefits.jsp",
+    "https://www.etisalat.ae/ar/c/support/mobile/roaming/mobile-incoming-voice-roaming-packs/subscription-cancellation.jsp",
+    "https://www.etisalat.ae/ar/c/support/mobile/roaming/monthly-roaming-packs/billing-and-usage.jsp",
+    "https://www.etisalat.ae/ar/c/support/mobile/roaming/monthly-roaming-packs/overview-and-benefits.jsp",
+    "https://www.etisalat.ae/ar/c/support/mobile/roaming/monthly-roaming-packs/subscription-cancellation.jsp",
+    "https://www.etisalat.ae/ar/c/support/mobile/roaming/roaming-callback-app/billing-and-usage.jsp"]
 }

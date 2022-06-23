@@ -1,10 +1,10 @@
 {
   "wallspage": [
-    "https://www.etisalat.ae/ar/c/mobile/add-ons/music-pass-terms-and-conditions.jsp",
-"https://www.etisalat.ae/ar/c/mobile/add-ons/music-service-terms-and-conditions.jsp",
-"https://www.etisalat.ae/ar/c/mobile/add-ons/video-pass-terms-and-conditions.jsp",
-"https://www.etisalat.ae/ar/c/mobile/bill-limit.jsp",
-"https://www.etisalat.ae/ar/c/mobile/collect-call.jsp",
-"https://www.etisalat.ae/ar/c/mobile/email2sms.jsp",
-"https://www.etisalat.ae/ar/c/mobile/galaxy-upgrade-program.jsp"]
+    "https://www.etisalat.ae/ar/c/support/mobile/roaming.jsp",
+    "https://www.etisalat.ae/ar/c/support/mobile/roaming/daily-roaming-packs/billing-and-usage.jsp",
+    "https://www.etisalat.ae/ar/c/support/mobile/roaming/daily-roaming-packs/overview-and-benefits.jsp",
+    "https://www.etisalat.ae/ar/c/support/mobile/roaming/daily-roaming-packs/subscription-cancellation.jsp",
+    "https://www.etisalat.ae/ar/c/support/mobile/roaming/ksa-roaming-pack/billing-and-usage.jsp",
+    "https://www.etisalat.ae/ar/c/support/mobile/roaming/ksa-roaming-pack/overview-and-benefits.jsp",
+    "https://www.etisalat.ae/ar/c/support/mobile/roaming/ksa-roaming-pack/subscription-cancellation.jsp"]
 }

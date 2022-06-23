@@ -1,10 +1,10 @@
 {
   "wallspage":   [
-    "https://www.etisalat.ae/en/onboarding/postpaid/your-account/logging-in.jsp",
-    "https://www.etisalat.ae/en/onboarding/postpaid/your-bill/about-your-bill.jsp",
-    "https://www.etisalat.ae/en/onboarding/postpaid/your-bill/payment-methods.jsp",
-    "https://www.etisalat.ae/en/onboarding/prepaid/addons-and-promotions/add-ons.jsp",
-    "https://www.etisalat.ae/en/onboarding/prepaid/addons-and-promotions/promotions.jsp",
-    "https://www.etisalat.ae/en/onboarding/prepaid/get-support/support.jsp",
-    "https://www.etisalat.ae/en/onboarding/prepaid/get-support/tech-support.jsp"]
+    "https://www.etisalat.ae/ar/c/support/home/elife/elife-entertainment/benefits-addons.jsp",
+    "https://www.etisalat.ae/ar/c/support/home/elife/elife-entertainment/billing-and-usage.jsp",
+    "https://www.etisalat.ae/ar/c/support/home/elife/elife-entertainment/other.jsp",
+    "https://www.etisalat.ae/ar/c/support/home/elife/elife-entertainment/overview.jsp",
+    "https://www.etisalat.ae/ar/c/support/home/elife/elife-entertainment/subscriptions-cancellations.jsp",
+    "https://www.etisalat.ae/ar/c/support/home/elife/elife-family/benefits-addons.jsp",
+    "https://www.etisalat.ae/ar/c/support/home/elife/elife-family/billing-and-usage.jsp"]
 }

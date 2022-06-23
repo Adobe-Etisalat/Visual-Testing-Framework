@@ -1,10 +1,10 @@
 {
   "wallspage": [
-    "https://www.etisalat.ae/ar/c/home/channel-list/jstv-pack.jsp",
-    "https://www.etisalat.ae/ar/c/home/channel-list/khyber-pack.jsp",
-    "https://www.etisalat.ae/ar/c/home/channel-list/learners-tv-pack.jsp",
-    "https://www.etisalat.ae/ar/c/home/channel-list/maa-tv.jsp",
-    "https://www.etisalat.ae/ar/c/home/channel-list/mbc-channel-list.jsp",
-    "https://www.etisalat.ae/ar/c/home/channel-list/media-box-pack.jsp",
-    "https://www.etisalat.ae/ar/c/home/channel-list/osn-add-on.jsp" ]
+    "https://www.etisalat.ae/ar/c/support/home/smart-lights/others.jsp",
+    "https://www.etisalat.ae/ar/c/support/home/smart-lights/overview-and-benefits.jsp",
+    "https://www.etisalat.ae/ar/c/support/home/smart-locks/billing-and-usage.jsp",
+    "https://www.etisalat.ae/ar/c/support/home/smart-locks/others.jsp",
+    "https://www.etisalat.ae/ar/c/support/home/smart-locks/overview-and-benefits.jsp",
+    "https://www.etisalat.ae/ar/c/support/home/smart-monitoring/billing-and-usage.jsp",
+    "https://www.etisalat.ae/ar/c/support/home/smart-monitoring/others.jsp"     ]
 }
