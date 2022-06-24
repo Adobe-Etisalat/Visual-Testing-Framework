@@ -4,7 +4,7 @@ describe("visual test of walls site page",function(){
 
     beforeEach(function()
    {
-        cy.fixture("/Consumerlot2batch3/urlcheck.json").then((data) =>{
+        cy.fixture("/Consumerlot2batch4/urlcheck.json").then((data) =>{
 
             this.testdata=data
 
