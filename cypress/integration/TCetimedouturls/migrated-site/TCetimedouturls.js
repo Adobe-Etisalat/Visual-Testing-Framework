@@ -25,21 +25,21 @@ describe("visual test of walls site page",function(){
         let i=0
         arrayOsPage.forEach(element => {
            cy.log(i)
-            cy.visit(element).wait(15000)
-            cy.document().then(doc => {
+            cy.visit(element).wait(5000)
+            /*cy.document().then(doc => {
                 // create a new style tag
                 let $style = doc.createElement("style");
                 // add percy-specific css
                 $style.innerHTML = "@media only percy { *[id='onetrust-banner-sdk'] { display: none !important; } };";
                 // inject styles into the document
                 doc.body.appendChild($style)
-              });
+              });*/
             
            
              cy.window().then(cyWindow => scrollToBottom({frequency: 10, timing: 5000 ,remoteWindow: cyWindow }));
          i=i+1
          cy.log(i)
-       cy.percySnapshot("TC-et-page-"+i);
+       cy.percySnapshot("et-page-"+i);
         });
        })
 }) 

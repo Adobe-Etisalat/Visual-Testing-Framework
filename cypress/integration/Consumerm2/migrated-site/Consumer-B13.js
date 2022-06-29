@@ -15,7 +15,7 @@ describe("visual test of walls site page",function(){
 
     beforeEach(function()
     {
-        cy.fixture("/TCetimedouturls/production/TC-eto").then((data) =>{
+        cy.fixture("/Consumerm2/migrated/Consumer-B13").then((data) =>{
             this.testdata=data
         }) 
     })
@@ -26,20 +26,20 @@ describe("visual test of walls site page",function(){
         arrayOsPage.forEach(element => {
            cy.log(i)
             cy.visit(element).wait(15000)
-            /*cy.document().then(doc => {
+            cy.document().then(doc => {
                 // create a new style tag
                 let $style = doc.createElement("style");
                 // add percy-specific css
                 $style.innerHTML = "@media only percy { *[id='onetrust-banner-sdk'] { display: none !important; } };";
                 // inject styles into the document
                 doc.body.appendChild($style)
-              });*/
+              });
             
            
-            cy.window().then(cyWindow => scrollToBottom({frequency: 10, timing: 5000 ,remoteWindow: cyWindow }));
+             cy.window().then(cyWindow => scrollToBottom({frequency: 10, timing: 5000 ,remoteWindow: cyWindow }));
          i=i+1
          cy.log(i)
-       cy.percySnapshot("et-page-"+i);
+       cy.percySnapshot("Consumerm2-bat13-page-"+i);
         });
        })
 }) 
