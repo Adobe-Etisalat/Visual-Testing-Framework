@@ -15,7 +15,7 @@ describe("visual test of walls site page",function(){
 
     beforeEach(function()
     {
-        cy.fixture("/Deltalot2/prod/Delta-B7").then((data) =>{
+        cy.fixture("/Deltalot2/production/Delta-B7").then((data) =>{
             this.testdata=data
         }) 
     })
