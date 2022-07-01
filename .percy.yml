@@ -15,3 +15,7 @@ upload:
   files: "**/*.{png,jpg,jpeg}"
   ignore: ""
   stripExtensions: false
+
+launch-options:
+  headless: true # default
+  timeout: 200000 # default

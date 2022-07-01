@@ -3,5 +3,9 @@
     "projectId": "em4j4y",
     "pageLoadTimeout": 22000000,
     "viewportHeight":609,
-    "viewportWidth" :1280
+    "viewportWidth" :1280,
+    "requestTimeout":120000,
+
+    "responseTimeout":120000
+    
 }
