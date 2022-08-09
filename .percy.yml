@@ -1,8 +1,10 @@
 version: 2
 snapshot:
   widths:
+    - 360
+    - 768
+    - 992
     - 1200
-  
   minHeight: 1024
  
   enable-javascript: false
