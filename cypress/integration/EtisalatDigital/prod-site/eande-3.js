@@ -15,7 +15,7 @@ describe("visual test of walls site page",function(){
 
     beforeEach(function()
     {
-        cy.fixture("/EtisalatDigital/production/eande").then((data) =>{
+        cy.fixture("/EtisalatDigital/production/eande-3").then((data) =>{
             this.testdata=data
         }) 
     })
@@ -39,7 +39,7 @@ describe("visual test of walls site page",function(){
              cy.window().then(cyWindow => scrollToBottom({frequency: 10, timing: 5000 ,remoteWindow: cyWindow }));
          i=i+1
          cy.log(i)
-       cy.percySnapshot("eande-page-"+i);
+       cy.percySnapshot("eande-3-page-"+i);
         });
        })
 }) 
