@@ -1,0 +1,39 @@
+{
+  "wallspage": [
+
+    "https://eandenterprise.com/en/careers/careers.jsp",
+    "https://eandenterprise.com/en/cloud/aws.jsp",
+    "https://eandenterprise.com/en/cloud/cloud-security.jsp",
+    "https://eandenterprise.com/en/cloud/colocation.jsp",
+    "https://eandenterprise.com/en/cloud/etisalat-one-cloud.jsp",
+    
+    "https://eandenterprise.com/en/cloud/main.jsp",
+    "https://eandenterprise.com/en/cloud/microsoft-cloud.jsp",
+    "https://eandenterprise.com/en/cloud/mobile-spam-policy.jsp",
+    "https://eandenterprise.com/en/cloud/multicloud.jsp",
+    "https://eandenterprise.com/en/cloud/nice.jsp",
+    
+    "https://eandenterprise.com/en/cloud/oracle-cloud.jsp",
+    "https://eandenterprise.com/en/cloud/private-cloud.jsp",
+    "https://eandenterprise.com/en/contactus/contactus-new.jsp",
+    "https://eandenterprise.com/en/contactus/thankyou.jsp",
+    "https://eandenterprise.com/en/cybersecurity/capabilities.jsp",
+    
+    "https://eandenterprise.com/en/cybersecurity/main.jsp",
+    "https://eandenterprise.com/en/cybersecurity/services.jsp",
+    "https://eandenterprise.com/en/general/code-of-practice.jsp",
+    "https://eandenterprise.com/en/index.jsp",
+    "https://eandenterprise.com/en/iot/digital-payments.jsp",
+    
+    "https://eandenterprise.com/en/iot/industry-x.jsp",
+    "https://eandenterprise.com/en/iot/iot-ai-command-center.jsp",
+    "https://eandenterprise.com/en/iot/iot-connectivity-5g.jsp",
+    "https://eandenterprise.com/en/iot/main.jsp",
+    "https://eandenterprise.com/en/iot/partner-program.jsp",
+    
+    
+    "https://eandenterprise.com/en/iot/service-delivery-pmo.jsp",
+    "https://eandenterprise.com/en/iot/smart-cities.jsp",
+    "https://eandenterprise.com/en/open-innovation/main.jsp",
+    "https://eandenterprise.com/en/uae-trade-connect.jsp"   ]
+}
