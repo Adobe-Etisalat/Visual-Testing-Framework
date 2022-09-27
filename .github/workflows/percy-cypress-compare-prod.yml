@@ -118,9 +118,11 @@ jobs:
            brand: ${{fromJson(needs.Get-brand-execute.outputs.brands).brand}}
       steps:
         - name: finalize
-          uses: percy/exec-action@v0.3.1
-          with:
-            command: 'percy finalize --all'
+          uses: actions/checkout@master
+        - name: Install
+          run: yarn
+        - name: Percy Test
+
           env:
            # pass the Dashboard record key as an environment variable
            CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
