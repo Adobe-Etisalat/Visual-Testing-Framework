@@ -96,7 +96,7 @@ jobs:
       COMMIT_INFO_BRANCH: ${{ github.head_ref }}
 
 
-   finalize-percy-build:
+      finalize-percy-build:
 
       name: finalize build
       needs: Get-brand-execute
@@ -104,9 +104,11 @@ jobs:
       strategy:
         matrix:
            brand: ${{fromJson(needs.Get-brand-execute.outputs.brands).brand}}
+
       steps:
-       - name: finalize
-         uses: percy/exec-action@v0.3.1
+
+        - name: finalize
+          uses: actions/checkout@master
          with:
            command: 'percy finalize --all'
          env:
