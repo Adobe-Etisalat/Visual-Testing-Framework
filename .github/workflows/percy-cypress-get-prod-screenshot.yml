@@ -98,12 +98,12 @@ jobs:
 
   finalize-percy-build:
   
-      name: finalize build
-      needs: Get-brand-execute
-      runs-on: ubuntu-latest
-      strategy:
-        matrix:
-           brand: ${{fromJson(needs.Get-brand-execute.outputs.brands).brand}}
+    name: finalize build
+    needs: Get-brand-execute
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        brand: ${{fromJson(needs.Get-brand-execute.outputs.brands).brand}}
       steps:
         - name: finalize
           uses: actions/checkout@master
@@ -112,7 +112,7 @@ jobs:
         - name: Percy Test
           run: npx percy build:finalize
 
-         env:
+        env:
           # pass the Dashboard record key as an environment variable
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
           # pass GitHub token to allow accurately detecting a build vs a re-run build
