@@ -109,8 +109,11 @@ jobs:
 
         - name: finalize
           uses: actions/checkout@master
-         with:
-           command: 'percy finalize --all'
+        - name: Install
+          run: yarn
+        - name: Percy Test
+          run: npx percy build:finalize
+        
          env:
           # pass the Dashboard record key as an environment variable
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
@@ -119,6 +122,7 @@ jobs:
           PERCY_TOKEN: ${{ secrets.RAMP_UP_TOKEN }}
           PERCY_PARALLEL_TOTAL: -1
           PERCY_PARALLEL_NONCE: ${{ github.event_name }} - ${{ github.run_id }} - $(date +'%Y-%m-%d')
+          PERCY_TARGET_BRANCH: ${{ github.event.inputs.target-branch}}
           PERCY_BRANCH: ${{ github.event.inputs.branch}}
           COMMIT_INFO_BRANCH: ${{ github.head_ref }}
 
