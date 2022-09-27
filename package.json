@@ -20,8 +20,9 @@
   },
   "homepage": "https://github.com/mkarthik87/cypress-percy#readme",
   "dependencies": {
-    "cypress": "^8.4.0",
+    "cypress": "9.6",
     "cypress-real-events": "^1.6.0",
+    "percy": "^5.0.0",
     "scroll-to-bottomjs": "^1.1.0"
   },
   "devDependencies": {
