@@ -104,12 +104,10 @@ jobs:
         matrix:
            brand: ${{fromJson(needs.Get-brand-execute.outputs.brands).brand}}
       steps:
-        - name: finalize
-          uses: actions/checkout@master
-        - name: Install
-          run: yarn
-        - name: Percy Test
-          run: npx percy build:finalize
+       - name: finalize
+         uses: percy/exec-action@v0.3.1
+         with:
+           command: 'percy finalize --all'
          env:
           # pass the Dashboard record key as an environment variable
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
