@@ -104,24 +104,26 @@ jobs:
     strategy:
       matrix:
         brand: ${{fromJson(needs.Get-brand-execute.outputs.brands).brand}}
-      steps:
-        - name: finalize
-          uses: actions/checkout@master
-        - name: Install
-          run: yarn
-        - name: Percy Test
-          run: npx percy build:finalize
+    steps:
+      - name: finalize
+      uses: actions/checkout@master
 
-        env:
-          # pass the Dashboard record key as an environment variable
-          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
-          # pass GitHub token to allow accurately detecting a build vs a re-run build
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PERCY_TOKEN: ${{ secrets.RAMP_UP_TOKEN }}
-          PERCY_PARALLEL_TOTAL: -1
-          PERCY_PARALLEL_NONCE: ${{ github.event_name }} - ${{ github.run_id }} - $(date +'%Y-%m-%d')
-          PERCY_BRANCH: ${{ github.event.inputs.branch}}
-          COMMIT_INFO_BRANCH: ${{ github.head_ref }}
+      - name: Install
+      run: yarn
+      
+      - name: Percy Test
+      run: npx percy build:finalize
+
+    env:
+      # pass the Dashboard record key as an environment variable
+      CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+      # pass GitHub token to allow accurately detecting a build vs a re-run build
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      PERCY_TOKEN: ${{ secrets.RAMP_UP_TOKEN }}
+      PERCY_PARALLEL_TOTAL: -1
+      PERCY_PARALLEL_NONCE: ${{ github.event_name }} - ${{ github.run_id }} - $(date +'%Y-%m-%d')
+      PERCY_BRANCH: ${{ github.event.inputs.branch}}
+      COMMIT_INFO_BRANCH: ${{ github.head_ref }}
 
   # validate if there are any failures in the workflow
   check-matrix-status:
