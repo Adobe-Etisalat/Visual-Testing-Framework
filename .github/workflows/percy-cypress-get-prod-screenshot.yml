@@ -56,7 +56,7 @@ jobs:
       fail-fast: false
       matrix: 
         brand: ${{fromJson(needs.set-matrix.outputs.matrix-combinations).brand}}
-        containers: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30]
+        containers: [1,2,3,4]
     continue-on-error: true
     steps:
       - name: Specify the brand
@@ -69,7 +69,7 @@ jobs:
         uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
-          node-version: '16.x'
+          node-version: '12.x'
       - name: Cypress run
         uses: cypress-io/github-action@v2
         with:
@@ -96,24 +96,18 @@ jobs:
       COMMIT_INFO_BRANCH: ${{ github.head_ref }}
 
 
-      finalize-percy-build:
-
+  finalize-percy-build:
       name: finalize build
       needs: Get-brand-execute
       runs-on: ubuntu-latest
       strategy:
         matrix:
            brand: ${{fromJson(needs.Get-brand-execute.outputs.brands).brand}}
-
       steps:
-
-        - name: finalize
-          uses: actions/checkout@master
-        - name: Install
-          run: yarn
-        - name: Percy Test
-          run: npx percy build:finalize
-        
+       - name: finalize
+         uses: percy/exec-action@v0.3.1
+         with:
+           command: 'percy finalize --all'
          env:
           # pass the Dashboard record key as an environment variable
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
@@ -122,7 +116,6 @@ jobs:
           PERCY_TOKEN: ${{ secrets.RAMP_UP_TOKEN }}
           PERCY_PARALLEL_TOTAL: -1
           PERCY_PARALLEL_NONCE: ${{ github.event_name }} - ${{ github.run_id }} - $(date +'%Y-%m-%d')
-          PERCY_TARGET_BRANCH: ${{ github.event.inputs.target-branch}}
           PERCY_BRANCH: ${{ github.event.inputs.branch}}
           COMMIT_INFO_BRANCH: ${{ github.head_ref }}
 
@@ -136,7 +129,7 @@ jobs:
       - name: check the jobs # get the matrix job status and combination info
         id: status
         run: |
-          echo $(curl -X GET -s -u "mkathu:${{ secrets.PAT3 }}" https://api.github.com/repos/${{ github.repository }}/actions/runs/${{ github.run_id }}/jobs | jq ".jobs[] | {job_status: .conclusion}") >res.json
+          echo $(curl -X GET -s -u "mkarthik:${{ secrets.PAT3 }}" https://api.github.com/repos/${{ github.repository }}/actions/runs/${{ github.run_id }}/jobs | jq ".jobs[] | {job_status: .conclusion}") >res.json
           cat res.json | grep -q "fail" && echo "::set-output name=jobstatus::fail"
           echo job status is ${{ steps.status.outputs.jobstatus}}
     outputs:
@@ -166,5 +159,5 @@ jobs:
           SLACK_ICON: https://avatars.slack-edge.com/2019-04-17/600129953603_6b91d39f5146d532d7e6_512.png
           SLACK_MESSAGE: Click on the ACTIONS URL to check the complete status and also to get complete overview of the execution
           SLACK_TITLE: Visual tests for live vs migrated page comparision
-          SLACK_USERNAME: Anitha
+          SLACK_USERNAME: mkathu
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
