@@ -20,11 +20,12 @@
   },
   "homepage": "https://github.com/anithaparuchuri/Visual-Testing-Framework.git#readme",
   "dependencies": {
+    "@percy/cli-command": "^1.10.4",
     "cypress-real-events": "^1.6.0",
     "scroll-to-bottomjs": "^1.1.0"
   },
   "devDependencies": {
-    "@percy/cli": "^1.0.0-beta.68",
+    "@percy/cli": "^1.10.4",
     "@percy/cypress": "^3.1.1",
     "cypress": "^9.7.0",
     "cypress-iframe": "^1.0.1",

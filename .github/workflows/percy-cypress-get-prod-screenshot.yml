@@ -96,7 +96,8 @@ jobs:
       COMMIT_INFO_BRANCH: ${{ github.head_ref }}
 
 
-  finalize-percy-build:
+   finalize-percy-build:
+
       name: finalize build
       needs: Get-brand-execute
       runs-on: ubuntu-latest
