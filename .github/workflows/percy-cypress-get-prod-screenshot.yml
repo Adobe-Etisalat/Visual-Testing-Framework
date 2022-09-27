@@ -97,6 +97,7 @@ jobs:
 
 
   finalize-percy-build:
+  
       name: finalize build
       needs: Get-brand-execute
       runs-on: ubuntu-latest
@@ -104,11 +105,12 @@ jobs:
         matrix:
            brand: ${{fromJson(needs.Get-brand-execute.outputs.brands).brand}}
       steps:
-       - name: finalize
+        - name: finalize
           uses: actions/checkout@master
         - name: Install
           run: yarn
         - name: Percy Test
+          run: npx percy build:finalize
 
          env:
           # pass the Dashboard record key as an environment variable
