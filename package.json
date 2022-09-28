@@ -1,34 +1,38 @@
 {
   "name": "cypress-percy",
   "version": "1.0.0",
-  "description": "",
+  "description": "This repo is used by the ramp up team to visually compare live and migrated pages",
   "main": "index.js",
   "scripts": {
     "cypress": "cypress run",
-    "percy-cy": "percy exec -- cypress run",
-    "percy:cypress": "percy exec -- cypress run --headed --record --key 843429f8-12c2-4762-b44b-64f16d695e04 --browser chrome",
-    "percy:cypress:record": "percy exec -- cypress run --record --parallel --ci-build-id $build_num --key 843429f8-12c2-4762-b44b-64f16d695e04 --browser chrome"
+    "percy-cy": "percy exec -- cypress run --record --key 9d28a333-05dc-41b2-83aa-edb6b5032b86 --headed --spec cypress/integration/Consumerm2-B5/migrated-site/**.js",
+    "percy:cypress": "percy exec -- cypress run --headed --record --key 9d28a333-05dc-41b2-83aa-edb6b5032b86 --browser chrome",
+    "percy:cypress:record": "percy exec -- cypress run --record --parallel --ci-build-id $build_num --key  9d28a333-05dc-41b2-83aa-edb6b5032b86 --browser chrome"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mkarthik87/cypress-percy.git"
+    "url": "git+https://github.com/anithaparuchuri/Visual-Testing-Framework.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mkarthik87/cypress-percy/issues"
+    "url": "https://github.com/anithaparuchuri/Visual-Testing-Framework.git"
   },
-  "homepage": "https://github.com/mkarthik87/cypress-percy#readme",
+  "homepage": "https://github.com/anithaparuchuri/Visual-Testing-Framework.git#readme",
   "dependencies": {
-    "@percy/cli-exec": "^1.10.4",
-    "cypress": "^9.7.0",
     "cypress-real-events": "^1.6.0",
-    "percy": "^5.0.0",
     "scroll-to-bottomjs": "^1.1.0"
   },
   "devDependencies": {
-    "@percy/cli": "^1.10.4",
+    "@percy/cli": "^1.0.0-beta.68",
     "@percy/cypress": "^3.1.1",
-    "cypress-pipe": "^2.0.0"
-  }
+    "cypress": "^9.7.0",
+    "cypress-iframe": "^1.0.1",
+    "cypress-pipe": "^2.0.0",
+    "cypress-wait-until": "^1.7.2",
+    "mochawesome": "^7.1.0",
+    "mochawesome-merge": "^4.2.1",
+    "mochawesome-report-generator": "^6.1.0"
+  },
+  "keywords": []
 }
