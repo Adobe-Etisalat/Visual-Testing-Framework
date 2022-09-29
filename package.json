@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "cypress": "cypress run",
-    "percy-cy": "percy exec -- cypress run --record --key 9d28a333-05dc-41b2-83aa-edb6b5032b86 --headed --spec cypress/integration/Consumerm2-B5/migrated-site/**.js",
+    "percy-cy": "percy exec -- cypress run --record --key 9d28a333-05dc-41b2-83aa-edb6b5032b86 --headed --spec cypress/integration/EtisalatDigital/migrated-site/eande-1.js --browser chrome",
     "percy:cypress": "percy exec -- cypress run --headed --record --key 9d28a333-05dc-41b2-83aa-edb6b5032b86 --browser chrome",
     "percy:cypress:record": "percy exec -- cypress run --record --parallel --ci-build-id $build_num --key  9d28a333-05dc-41b2-83aa-edb6b5032b86 --browser chrome"
   },

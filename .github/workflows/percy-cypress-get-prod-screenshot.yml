@@ -68,7 +68,7 @@ jobs:
         uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
-          node-version: '12.x'
+          node-version: '16.x'
       - name: Cypress run
         uses: cypress-io/github-action@v2
         with:
@@ -130,7 +130,7 @@ jobs:
       - name: check the jobs # get the matrix job status and combination info
         id: status
         run: |
-          echo $(curl -X GET -s -u "mkarthik:${{ secrets.PAT3 }}" https://api.github.com/repos/${{ github.repository }}/actions/runs/${{ github.run_id }}/jobs | jq ".jobs[] | {job_status: .conclusion}") >res.json
+          echo $(curl -X GET -s -u "anithaparuchuri:${{ secrets.PAT3 }}" https://api.github.com/repos/${{ github.repository }}/actions/runs/${{ github.run_id }}/jobs | jq ".jobs[] | {job_status: .conclusion}") >res.json
           cat res.json | grep -q "fail" && echo "::set-output name=jobstatus::fail"
           echo job status is ${{ steps.status.outputs.jobstatus}}
     outputs:
@@ -160,5 +160,5 @@ jobs:
           SLACK_ICON: https://avatars.slack-edge.com/2019-04-17/600129953603_6b91d39f5146d532d7e6_512.png
           SLACK_MESSAGE: Click on the ACTIONS URL to check the complete status and also to get complete overview of the execution
           SLACK_TITLE: Visual tests for live vs migrated page comparision
-          SLACK_USERNAME: mkathu
+          SLACK_USERNAME: anitha
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
