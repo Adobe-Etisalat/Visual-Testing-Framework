@@ -39,7 +39,7 @@ describe("visual test of walls site page",function(){
              cy.window().then(cyWindow => scrollToBottom({frequency: 15, timing: 10000 ,remoteWindow: cyWindow }));
          i=i+1
          cy.log(i)
-       cy.percySnapshot("eande-1-page-"+i);
+       cy.percySnapshot("EtisalatDigital-1-page-"+i);
         });
        })
 }) 
