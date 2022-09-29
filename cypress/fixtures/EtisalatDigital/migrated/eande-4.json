@@ -1,9 +1,6 @@
 {
   "wallspage": [
-   
-"https://uatnew.eandenterprise.com/en/cybersecurity/main.html",
-"https://uatnew.eandenterprise.com/en/cybersecurity/services.html",
-"https://uatnew.eandenterprise.com/en/general/code-of-practice.html",
-"https://uatnew.eandenterprise.com/en/index.html#",
-"https://uatnew.eandenterprise.com/en/iot/digital-payments.html" ]
+       "https://uatnew.eandenterprise.com/en/cloud/nice.html",
+    "https://uatnew.eandenterprise.com/en/cloud/oracle-cloud.html",
+    "https://uatnew.eandenterprise.com/en/cloud/private-cloud.html" ]
 }

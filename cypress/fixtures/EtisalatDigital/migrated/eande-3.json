@@ -1,10 +1,7 @@
 {
   "wallspage": [
-
-
-"https://uatnew.eandenterprise.com/en/cloud/oracle-cloud.html",
-"https://uatnew.eandenterprise.com/en/cloud/private-cloud.html",
-"https://uatnew.eandenterprise.com/en/contactus/contactus-new.html",
-"https://uatnew.eandenterprise.com/en/contactus/thankyou.html",
-"https://uatnew.eandenterprise.com/en/cybersecurity/capabilities.html"]
+   
+    "https://uatnew.eandenterprise.com/en/cloud/microsoft-cloud.html",
+    "https://uatnew.eandenterprise.com/en/cloud/mobile-spam-policy.html",
+    "https://uatnew.eandenterprise.com/en/cloud/multicloud.html" ]
 }

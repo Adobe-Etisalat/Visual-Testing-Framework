@@ -1,8 +1,7 @@
 {
-  "wallspage": [   
-    "https://eandenterprise.com/en/cloud/oracle-cloud.jsp",
-    "https://eandenterprise.com/en/cloud/private-cloud.jsp",
-    "https://eandenterprise.com/en/contactus/contactus-new.jsp",
-    "https://eandenterprise.com/en/contactus/thankyou.jsp",
-    "https://eandenterprise.com/en/cybersecurity/capabilities.jsp" ]
+  "wallspage": [
+ 
+    "https://eandenterprise.com/en/cloud/microsoft-cloud.jsp",
+    "https://eandenterprise.com/en/cloud/mobile-spam-policy.jsp",
+    "https://eandenterprise.com/en/cloud/multicloud.jsp" ]
 }
