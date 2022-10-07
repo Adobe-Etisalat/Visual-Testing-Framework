@@ -1,12 +1,12 @@
 version: 2
 snapshot:
   widths:
-      - 1200
-    minHeight: 1024
-  percy-css: 
-    .cmp-carousel {
-      display: none; 
-    }
+    - 360
+    - 768
+    - 992
+    - 1200
+  minHeight: 1024
+ 
   enable-javascript: false
 discovery:
   allowedHostnames: []
@@ -17,3 +17,7 @@ upload:
   files: "**/*.{png,jpg,jpeg}"
   ignore: ""
   stripExtensions: false
+
+launch-options:
+  headless: true # default
+  timeout: 200000 # default
