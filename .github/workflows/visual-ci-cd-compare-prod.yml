@@ -11,12 +11,12 @@ on:
         type: choice
         description: Select CM Pipeline
         options:
-        - '3121283'
+        - '7784176'
       programid:
         type: choice
         description: Select CM Program
         options:
-        - '42155'
+        - '59754'
       # user should provide a branch name which would capture all the screenshot in the percy dashboard also specify the target branch which would contain the screenshot of the live pages
       target-branch:
         type: string
